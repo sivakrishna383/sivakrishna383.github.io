@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "My Writings"
-description: "Description of Project #1"
+title: "Python Course"
+description: "This is the main course for python and machine learning"
 header-img: "img/homebg.jpg"
 category: project1
 ---
