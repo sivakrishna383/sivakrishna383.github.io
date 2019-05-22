@@ -30,10 +30,20 @@ header-img: "img/homebg.jpg"
 	</ul>
 </div>
 
+<div style="display:block;">
+	<h3>Why Python For machine learning?</h3>
+	<ul>
+		<li><b>Simple to learn: </b> Compared to other programming languages Python has simple syntax and it contains lot of open source libraries for easeof use.</li>
+		<li>It has greater data handling capacity.</li>
+		<li>It works on different platforms(Windows, Mac, Linux, Raspberry Pi, etc.)</li>
+	</ul>
+	<p>In this entire course we are going to use the python version 3.6.4. Sometimes we are going to use jupyter notebook code snippets. I hope most of ou well known about the working of jupyter notebook. If you want to explore about jupyter notebook you can <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">check here</a></p>
+</div>
 
 <ul class="pagination justify-content-center">
   <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+  <li class="page-item active"><a class="page-link" href="#">0</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
   <li class="page-item"><a class="page-link" href="#">2</a></li>
   <li class="page-item"><a class="page-link" href="#">3</a></li>
   <li class="page-item"><a class="page-link" href="#">4</a></li>
