@@ -1,6 +1,6 @@
 # Site settings
 title: Siva Krishna Reddy
-description: "An Integrated Persnal Blog"
+description: "An Integrated Persnal Blog and Website for python and machine learning content!"
 url: "https://sivakrishna383.github.io"
 
 
@@ -18,7 +18,7 @@ facebook_username: siva.krishna.54966834
 project_repository: sivakrishna383.github.io
 disqus_shortname: https-sivakrishna383-github-io
 g-analytics: UA-140659009-1
-altmetric: true
+altmetric: false
 
 # Build settings
 gems: [jekyll-paginate]
