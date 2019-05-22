@@ -1,22 +1,22 @@
 # Site settings
-title: Vemeswara Reddy
+title: Siva Krishna Reddy
 description: "An Integrated Persnal Blog"
-url: "http://vemeswara.me/"
+url: "https://sivakrishna383.github.io"
 
 
 
 
 # Secondary Parameters
-baseurl: "/sivakrishna1777.github.io"
+baseurl: "/sivakrishna383.github.io"
 header-img: img/homebg.jpg
 headercolor: "#FFFFFF"
-logo: /sivakrishna1777.github.io/img/logos/ProjectPagesNewLogoInverted.png
+logo: /sivakrishna383.github.io/img/logos/ProjectPagesNewLogoInverted.png
 
 # Tertiary Parameters
-github_username:  sivakrishna1777
-facebook_username: vemeswara.reddy
-project_repository: sivakrishna1777.github.io"
-disqus_shortname: http-vemeswara-me
+github_username:  sivakrishna383
+facebook_username: siva.krishna.54966834
+project_repository: sivakrishna383.github.io
+disqus_shortname: https-sivakrishna383-github-io
 g-analytics: UA-140532113-1
 altmetric: true
 
@@ -42,7 +42,7 @@ defaults:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://vemeswara.me/sivakrishna1777.github.io'
+  siteurl: 'https://sivakrishna383.github.io'
   ispp: true
   media: 'img'
   metadata:
@@ -107,7 +107,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://projectpages.github.io//sivakrishna1777.github.io/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="http://projectpages.github.io//sivakrishna383.github.io/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -115,7 +115,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="http://projectpages.github.io//sivakrishna1777.github.io/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="http://projectpages.github.io//sivakrishna383.github.io/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"
