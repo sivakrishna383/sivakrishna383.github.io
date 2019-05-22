@@ -11,21 +11,21 @@ header-img: "img/homebg.jpg"
 <div align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
 	<h1>Table of Contents</h1>
 	<ul>
-		<li>Introduction</li>
-		<li>Variables</li>
-		<li>Numbers</li>
-		<li>Strings</li>
-		<li>Operators</li>
-		<li>Lists and Tuples</li>
-		<li>Sets</li>
-		<li>Dictionaries</li>
-		<li>Loops</li>
+		<a href="#"><li>Introduction</li></a>
+		<a href="#"><li>Variables</li></a>
+		<a href="#"><li>Numbers</li></a>
+		<a href="#"><li>Strings</li></a>
+		<a href="#"><li>Operators</li></a>
+		<a href="#"><li>Lists and Tuples</li></a>
+		<a href="#"><li>Sets</li></a>
+		<a href="#"><li>Dictionaries</li></a>
+		<a href="#"><li>Loops</li></a>
 		<ul>
-			<li>If...Else</li>
-			<li>While</li>
-			<li>For</li>
+			<a href="#"><li>If...Else</li></a>
+			<a href="#"><li>While</li></a>
+			<a href="#"><li>For</li></a>
 		</ul>
-		<li>Functions</li>
-		<li>Arrays</li>
+		<a href="#"><li>Functions</li></a>
+		<a href="#"><li>Arrays</li></a>
 	</ul>
 </div>
