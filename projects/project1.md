@@ -30,7 +30,7 @@ header-img: "img/homebg.jpg"
 	</ul>
 </div>
 
-<div style="display:block;">
+<div style="display:block;line-height:1.6;">
 	<h3>Why Python For machine learning?</h3>
 	<ul>
 		<li><b>Simple to learn: </b> Compared to other programming languages Python has simple syntax and it contains lot of open source libraries for easeof use.</li>
