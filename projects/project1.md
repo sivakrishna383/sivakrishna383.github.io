@@ -27,4 +27,4 @@ header-img: "img/homebg.jpg"
 		<li>Functions</li>
 		<li>Arrays</li>
 	</ul>
-	</div>
+</div>
