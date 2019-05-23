@@ -8,12 +8,12 @@ description: "Introduction to the python programming language"
 <button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#toc">Table Of Contents</button>
   <div id="toc" class="collapse" align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
       <h1>Table of Contents</h1>
-	<ul>
-		<a href="/pages/introduction2/"><li>Introduction</li></a>
-		<a href="#"><li>Variables</li></a>
-		<a href="#"><li>Numbers</li></a>
-		<a href="#"><li>Strings</li></a>
-		<a href="#"><li>Operators</li></a>
+	<ul class="list-group">
+		<a href="/pages/introduction2/"><li class="list-group-item active">Introduction</li></a>
+		<a href="#"><li class="list-group-item">Variables</li></a>
+		<a href="#"><li class="list-group-item">Numbers</li></a>
+		<a href="#"><li class="list-group-item">Strings</li></a>
+		<a href="#"><li class="list-group-item">Operators</li></a>
 		<a href="#"><li>Lists and Tuples</li></a>
 		<a href="#"><li>Sets</li></a>
 		<a href="#"><li>Dictionaries</li></a>
