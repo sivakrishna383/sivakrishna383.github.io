@@ -10,24 +10,25 @@ header-img: "img/homebg.jpg"
 <p style="line-height:1.6;">In this course we are going to learn the python from basics to the advanced which will mainly focus on the concepts related to machine learing field. Most of you already well known about the machine learning and how much hype it is having these days.Below we are going to see the table of contents that are going to be discussed throught the website.</p>
 <div align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
 	<h1>Table of Contents</h1>
-	<ul>
-		<a href="/pages/introduction2/"><li>Introduction</li></a>
-		<a href="#"><li>Variables</li></a>
-		<a href="#"><li>Numbers</li></a>
-		<a href="#"><li>Strings</li></a>
-		<a href="#"><li>Operators</li></a>
-		<a href="#"><li>Lists and Tuples</li></a>
-		<a href="#"><li>Sets</li></a>
-		<a href="#"><li>Dictionaries</li></a>
-		<a href="#"><li>Loops</li></a>
+	<ol class="list-group list-group-flush">
+		<a href="/projects/project1"><li class="list-group-item active">Python Home</li></a>
+		<a href="/pages/introduction2/"><li class="list-group-item">Introduction</li></a>
+		<a href="#"><li class="list-group-item">Variables</li></a>
+		<a href="#"><li class="list-group-item">Numbers</li></a>
+		<a href="#"><li class="list-group-item">Strings</li></a>
+		<a href="#"><li class="list-group-item">Operators</li></a>
+		<a href="#"><li class="list-group-item">Lists and Tuples</li></a>
+		<a href="#"><li class="list-group-item">Sets</li></a>
+		<a href="#"><li class="list-group-item">Dictionaries</li></a>
+		<a href="#"><li class="list-group-item">Loops</li></a>
 		<ul>
-			<a href="#"><li>If...Else</li></a>
-			<a href="#"><li>While</li></a>
-			<a href="#"><li>For</li></a>
+			<a href="#"><li class="list-group-item">If...Else</li></a>
+			<a href="#"><li class="list-group-item">While</li></a>
+			<a href="#"><li class="list-group-item">For</li></a>
 		</ul>
-		<a href="#"><li>Functions</li></a>
-		<a href="#"><li>Arrays</li></a>
-	</ul>
+		<a href="#"><li class="list-group-item">Functions</li></a>
+		<a href="#"><li class="list-group-item">Arrays</li></a>
+	</ol>
 </div>
 
 <div style="display:block;line-height:1.6;">
