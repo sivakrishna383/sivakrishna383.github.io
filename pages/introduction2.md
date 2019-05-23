@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Members"
-description: "Collaborators working on this project."
+title: "Introduction"
+description: "Introduction of python"
 header-img: "img/homebg.jpg"
 ---
 
