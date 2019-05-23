@@ -62,8 +62,15 @@ description: "Introduction to the python programming language"
    </p>
    <h3>Indentation</h3>
    <p>Unlike other languages python must have indentation when writing a function or a loop. Other languages will use indentatio for readablity but in pythn it is necessary to have indentation. If you do not follow the default indentation rules it will throw an error</p>
+   Correct Code with indentation
    <figure class="highlight"><pre><code class="language-python" data-lang="python">if 5 > 2:
-&nbsp;&nbsp;print("Five is greater than two!")<span class="kn"></span>
-      <span class="kn">Hello World!</span>
+&nbsp;&nbsp;print("True")
+<span class="kn">Output: True</span>
+    </code></pre></figure>
+    
+  Code with no indentation
+   <figure class="highlight"><pre><code class="language-python" data-lang="python">if 5 > 2:
+print("True")
+<span class="kn">Output: IndentationError: expected an indented block</span>
     </code></pre></figure>
   </div>
