@@ -8,7 +8,7 @@ description: "Introduction to the python programming language"
 <button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#toc">Table Of Contents</button>
   <div id="toc" class="collapse" align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
       <h1>Table of Contents</h1>
-	<ul class="list-group list-group-flush">
+	<ol class="list-group list-group-flush">
 		<a href="/pages/introduction2/"><li class="list-group-item active">Introduction</li></a>
 		<a href="#"><li class="list-group-item">Variables</li></a>
 		<a href="#"><li class="list-group-item">Numbers</li></a>
@@ -25,7 +25,7 @@ description: "Introduction to the python programming language"
 		</ul>
 		<a href="#"><li class="list-group-item">Functions</li></a>
 		<a href="#"><li class="list-group-item">Arrays</li></a>
-	</ul>
+	</ol>
       </div>
 
 
