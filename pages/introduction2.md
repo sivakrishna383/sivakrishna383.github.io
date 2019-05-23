@@ -50,14 +50,20 @@ description: "Introduction to the python programming language"
       </ul>
       <h3>Installing Python</h3>
       <p>Python installation is very simple, you can install it on any operating system such as Windows, Mac OS X, Ubuntu etc. Just follow the steps in this article<a href="https://realpython.com/installing-python/"></a>. In most of the linux based operating systems python may be already pre installed. You can check it by typing <b>python --version</b> in a terminal. It will show the result the python version which is installed on your pc or desktop.</p>
-      <figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>>python --version</span>
-      <p>Output should be like this</p>
+      <figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>> python --version</span>
+      <span>Output should be like this</span>
       <span class="kn"> Python 3.6.4</span>
     </code></pre></figure>
     <h3>Python Syntax</h3>
     <p>
-	<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>>print("Hello World!")</span>
+	<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>> print("Hello World!")</span>
       <span class="kn">Hello World!</span>
     </code></pre></figure>
    </p>
+   <h3>Indentation</h3>
+   <p>Unlike other languages python must have indentation when writing a function or a loop. Other languages will use indentatio for readablity but in pythn it is necessary to have indentation. If you do not follow the default indentation rules it will throw an error</p>
+   <figure class="highlight"><pre><code class="language-python" data-lang="python">if 5 > 2:
+&nbsp;&nbsp;print("Five is greater than two!")<span class="kn"></span>
+      <span class="kn">Hello World!</span>
+    </code></pre></figure>
   </div>
