@@ -9,6 +9,7 @@ description: "Introduction to the python programming language"
   <div id="toc" class="collapse" align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
       <h1>Table of Contents</h1>
 	<ol class="list-group list-group-flush">
+		<a href="/projects/project1"><li class="list-group-item">Python Home</li></a>
 		<a href="/pages/introduction2/"><li class="list-group-item active">Introduction</li></a>
 		<a href="#"><li class="list-group-item">Variables</li></a>
 		<a href="#"><li class="list-group-item">Numbers</li></a>
