@@ -64,13 +64,31 @@ description: "Introduction to the python programming language"
    <p>Unlike other languages python must have indentation when writing a function or a loop. Other languages will use indentatio for readablity but in pythn it is necessary to have indentation. If you do not follow the default indentation rules it will throw an error</p>
    Correct Code with indentation
    <figure class="highlight"><pre><code class="language-python" data-lang="python">if 5 > 2:
-&nbsp;&nbsp;print("True")
+&nbsp;&nbsp;print("True")<br />
 <span class="kn">Output: True</span>
     </code></pre></figure>
     
   Code with no indentation
    <figure class="highlight"><pre><code class="language-python" data-lang="python">if 5 > 2:
-print("True")
+print("True")<br />
 <span class="kn">Output: IndentationError: expected an indented block</span>
     </code></pre></figure>
+    
+   <h3>Comments</h3>
+   <p>Comments make a code more readable. Python has a simple way to represent a comment. A comment in python will start with a #, and the complete line after the hashtag symbol will be treated as a comment and that line will not be executed by the python.</p>
+   Code with a Comment
+   <figure class="highlight"><pre><code class="language-python" data-lang="python">#This is a comment 
+   print("Hellow world!")<br />
+<span class="kn">Output: Hellow world!</span>
+    </code></pre></figure>
+    
+   <h3>MultiLine comments(Doc Strings)</h3>
+   <p>Doc strings are special type in python that enables multiline or single line comments. Doc string will have triple quotes at the begining and end as well.</p>
+   Code with a multiline docstring
+   <figure class="highlight"><pre><code class="language-python" data-lang="python">"""This is a 
+multiline docstring."""
+print("Hello, World!")<br />
+<span class="kn">Output: Hellow world!</span>
+    </code></pre></figure>
+    <p>That's it for this lesson. I hope you get the basic introduction to the python language syntax. We will meet in the next lesson. Until then bye-bye!!!!!!!!!!!!!! <br/> Have a great day!</p>
   </div>
