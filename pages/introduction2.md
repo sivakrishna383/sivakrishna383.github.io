@@ -14,17 +14,17 @@ description: "Introduction to the python programming language"
 		<a href="#"><li class="list-group-item">Numbers</li></a>
 		<a href="#"><li class="list-group-item">Strings</li></a>
 		<a href="#"><li class="list-group-item">Operators</li></a>
-		<a href="#"><li>Lists and Tuples</li></a>
-		<a href="#"><li>Sets</li></a>
-		<a href="#"><li>Dictionaries</li></a>
-		<a href="#"><li>Loops</li></a>
+		<a href="#"><li class="list-group-item">Lists and Tuples</li></a>
+		<a href="#"><li class="list-group-item">Sets</li></a>
+		<a href="#"><li class="list-group-item">Dictionaries</li></a>
+		<a href="#"><li class="list-group-item">Loops</li></a>
 		<ul>
-			<a href="#"><li>If...Else</li></a>
-			<a href="#"><li>While</li></a>
-			<a href="#"><li>For</li></a>
+			<a href="#"><li class="list-group-item">If...Else</li></a>
+			<a href="#"><li class="list-group-item">While</li></a>
+			<a href="#"><li class="list-group-item">For</li></a>
 		</ul>
-		<a href="#"><li>Functions</li></a>
-		<a href="#"><li>Arrays</li></a>
+		<a href="#"><li class="list-group-item">Functions</li></a>
+		<a href="#"><li class="list-group-item">Arrays</li></a>
 	</ul>
       </div>
 
@@ -51,13 +51,14 @@ description: "Introduction to the python programming language"
       <h3>Installing Python</h3>
       <p>Python installation is very simple, you can install it on any operating system such as Windows, Mac OS X, Ubuntu etc. Just follow the steps in this article<a href="https://realpython.com/installing-python/"></a>. In most of the linux based operating systems python may be already pre installed. You can check it by typing <b>python --version</b> in a terminal. It will show the result the python version which is installed on your pc or desktop.</p>
       <figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>> python --version</span>
-      <span>Output should be like this</span>
-      <span class="kn"> Python 3.6.4</span>
+      <br /><span>Output should be like this</span>
+<span class="kn"> Python 3.6.4</span>
     </code></pre></figure>
     <h3>Python Syntax</h3>
     <p>
-	<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="kn">>>> print("Hello World!")</span>
-      <span class="kn">Hello World!</span>
+	<figure class="highlight"><pre><code class="language-python" data-lang="python">    
+<span class="kn">>>> print("Hello World!")</span>
+<span class="kn">Hello World!</span>
     </code></pre></figure>
    </p>
    <h3>Indentation</h3>
@@ -77,18 +78,19 @@ print("True")<br />
    <h3>Comments</h3>
    <p>Comments make a code more readable. Python has a simple way to represent a comment. A comment in python will start with a #, and the complete line after the hashtag symbol will be treated as a comment and that line will not be executed by the python.</p>
    Code with a Comment
-   <figure class="highlight"><pre><code class="language-python" data-lang="python">#This is a comment 
-   print("Hellow world!")<br />
-<span class="kn">Output: Hellow world!</span>
+   <figure class="highlight"><pre><code class="language-python" data-lang="python">
+#This is a comment 
+print("Hello world!")<br />
+<span class="kn">Output: Hello world!</span>
     </code></pre></figure>
     
    <h3>MultiLine comments(Doc Strings)</h3>
    <p>Doc strings are special type in python that enables multiline or single line comments. Doc string will have triple quotes at the begining and end as well.</p>
    Code with a multiline docstring
    <figure class="highlight"><pre><code class="language-python" data-lang="python">"""This is a 
-multiline docstring."""
+multiline docstring."""<br/>
 print("Hello, World!")<br />
-<span class="kn">Output: Hellow world!</span>
+<span class="kn">Output: Hello world!</span>
     </code></pre></figure>
     <p>That's it for this lesson. I hope you get the basic introduction to the python language syntax. We will meet in the next lesson. Until then bye-bye!!!!!!!!!!!!!! <br/> Have a great day!</p>
   </div>
