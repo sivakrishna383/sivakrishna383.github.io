@@ -11,7 +11,7 @@ header-img: "img/homebg.jpg"
 <div align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
 	<h1>Table of Contents</h1>
 	<ul>
-		<a href="/pages/introduction2.html"><li>Introduction</li></a>
+		<a href="/pages/introduction2/"><li>Introduction</li></a>
 		<a href="#"><li>Variables</li></a>
 		<a href="#"><li>Numbers</li></a>
 		<a href="#"><li>Strings</li></a>
@@ -43,7 +43,7 @@ header-img: "img/homebg.jpg"
 <ul class="pagination justify-content-center">
   <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
   <li class="page-item active"><a class="page-link" href="#">0</a></li>
-  <li class="page-item"><a class="page-link" href="/pages/introduction2.html">1</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/introduction2/">1</a></li>
   <li class="page-item"><a class="page-link" href="#">2</a></li>
   <li class="page-item"><a class="page-link" href="#">3</a></li>
   <li class="page-item"><a class="page-link" href="#">4</a></li>
