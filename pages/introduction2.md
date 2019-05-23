@@ -5,6 +5,31 @@ description: "Introduction to the python programming language"
 
 ---
 
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#toc">Table Of Contents</button>
+  <div id="toc" class="collapse" align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
+      <h1>Table of Contents</h1>
+	<ul>
+		<a href="/pages/introduction2/"><li>Introduction</li></a>
+		<a href="#"><li>Variables</li></a>
+		<a href="#"><li>Numbers</li></a>
+		<a href="#"><li>Strings</li></a>
+		<a href="#"><li>Operators</li></a>
+		<a href="#"><li>Lists and Tuples</li></a>
+		<a href="#"><li>Sets</li></a>
+		<a href="#"><li>Dictionaries</li></a>
+		<a href="#"><li>Loops</li></a>
+		<ul>
+			<a href="#"><li>If...Else</li></a>
+			<a href="#"><li>While</li></a>
+			<a href="#"><li>For</li></a>
+		</ul>
+		<a href="#"><li>Functions</li></a>
+		<a href="#"><li>Arrays</li></a>
+	</ul>
+      </div>
+
+
+
 <div class="maincontent">
       <p>Python is a widely using general purpose programming language. It was created by <b>Guido van Rossum</b> in 1991 and developed Python Software Foundation</p>
       <blockquote style="border-left: 5px solid #7dc246; margin: 20px 0;padding-left: 1.5rem; display: block;">
