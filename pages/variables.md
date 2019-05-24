@@ -52,23 +52,23 @@ description: "Introduction to the python programming language"
 	</ol>
       </div>
       
-      <div class="main_cntent">
+<div class="main_cntent">
           <p>Variables are memory locations to store some values. It means that when you create a variable you are allocating some space in memory to store a value. The reserved memory will be depend on the datatype of the variable you assign.</p>
           <p>Unlike other programming languages in python there is no need of defining the data type of the variables. A  variable will be created when you first assign a value to it. The value can be any datatype. This means you can assign an integer value of 10 to a variable x by just assigning as x=5.</p>
           Examples of variable assignment
-          <figure class="highlight"><pre><code class="language-python" data-lang="python">
-X = 10<br />
-name = "siva"<br />
-y = 4.5673<br />
-<span class="k">print</span><span class="p">(</span><span class="s">x)</span><br />
-<span class="k">print</span><span class="p">(</span><span class="s">name)<br />
-<span class="k">print</span><span class="p">(</span><span class="s">y)<br />
+<figure class="highlight"><pre><code class="language-python" data-lang="python">
+X = 10
+name = "siva"
+y = 4.5673
+<span class="k">print</span><span class="p">(</span><span class="s">x)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">name)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">y)</span><br />
 
 <span class="kn">Output:</span><br />
 10<br />
 siva<br />
 4.5673
- </code></pre></figure>
+</code></pre></figure>
  <p>The data type of a variable can be change at any time. For suppose at first you have iitialised a variable x=5, later in your code you initialise x="some name", then x will take the datatype integer until you assign the string data-type to x. See it in the below example.</p>
 <figure class="highlight"><pre><code class="language-python" data-lang="python">
 x = 5
@@ -86,16 +86,16 @@ some name!
 <p>One way is assigning single same value to multiple variables. In this case all the variables refer to the same memory location.</p>
 Assigning same value to multiple variables
 <figure class="highlight"><pre><code class="language-python" data-lang="python">
-<span class="kn">a=b=c=5</span>
+<span class="kn">a = b = c = 5</span>
     </code></pre></figure>
  <p>Second way is assigning multiple values to multiple variables in a single line. Here all the variables will refer to different memory locations.</p>
  Assigning different values to different variables
  <figure class="highlight"><pre><code class="language-python" data-lang="python">
- <span class="kn">a,b,c = 1,1.5,"a string"</span>
+ <span class="kn">a, b, c = 1, 1.5, "a string"</span>
  </code></pre></figure>
  <p>Here variable a is assined with integer value 1, b is assigned with float value 1.5 and variable c is assigned with string value "a string"./p>
 <p>Python has 5 standard data types. They are - </p>
-<ol>
+<ol align="center">
 	<li>Number (int, float)</li>
 	<li>String</li>
 	<li>List</li>
@@ -105,7 +105,7 @@ Assigning same value to multiple variables
 <p>We will discuss about each of the data type in brief. We will go into the deep discussion about each of them in later lessons of this course. Let's begin the introduction about each of the above............</p>
 <h3>1) Numbers</h3>
 <p>Numbers means numeric values. There are for different types that python supports-</p>
-<ul>
+<ul align="center">
 	<li>int (5, -5, 110, -110 etc.)</li>
 	<li>long int (123456789L, 0154L, etc.)</li>
 	<li>float (1.5, 3.14, 6.7567, etc.)</li>
@@ -131,7 +131,7 @@ print(list1[2:4])
 [1, 2, 3, 1.567, "string"]
 [3, 1.567, "string"]
 </code></pre></figure>
-<h3>Tuple</h3>
+<h3>4) Tuple</h3>
 <p>Tuple is a data-type very much similar to a list. But the operation that are going to perform on a tuple and a list will be different. We will discuss the differences in later chapters. The main difference is a list will be represented by using square brackets but a tuple will be enclosed in parentheses( () ).</p>
 <figure class="highlight"><pre><code class="language-python" data-lang="python">
 tuple1 = [1, 2, 3, 1.567, "string"]
@@ -142,7 +142,7 @@ print(tuple1[2:4])
 (3, 1.567, "string")
 </code></pre></figure>
 
-<h3>Dictionary</h3>
+<h3>5) Dictionary</h3>
 <p>Dictionaries are a special kind of data-types which consists a key-value pair. A key can be any data type but mostly we will use numbers or strings. Value can be any data-type. A Dictionary should be enclosed in curly braces({}) and values can be assigned using square braces([])</p>
 <figure class="highlight"><pre><code class="language-python" data-lang="python">
 dict = {}
