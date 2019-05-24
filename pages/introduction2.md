@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Introduction
 description: "Introduction to the python programming language"
 
