@@ -34,7 +34,7 @@ description: "Introduction to the python programming language"
 	<ol class="list-group list-group-flush">
 		<a href="/projects/project1"><li class="list-group-item">Python Home</li></a>
 		<a href="/pages/introduction2/"><li class="list-group-item active">Introduction</li></a>
-		<a href="#"><li class="list-group-item">Variables</li></a>
+		<a href="/pages/variables/"><li class="list-group-item">Variables</li></a>
 		<a href="#"><li class="list-group-item">Numbers</li></a>
 		<a href="#"><li class="list-group-item">Strings</li></a>
 		<a href="#"><li class="list-group-item">Operators</li></a>
@@ -118,6 +118,19 @@ print("Hello, World!")<br />
     </code></pre></figure>
     <p>That's it for this lesson. I hope you get the basic introduction to the python language syntax. We will meet in the next lesson. Until then bye-bye!!!!!!!!!!!!!! <br/> Have a great day!</p>
   </div>
+  
+  <ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="/projects/project1">Previous</a></li>
+  <li class="page-item "><a class="page-link" href="/projects/project1">0</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/introduction2/">1</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/variables/">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">4</a></li>
+  <li class="page-item"><a class="page-link" href="#">5</a></li>
+  <li class="page-item"><a class="page-link" href="#">6</a></li>
+  <li class="page-item"><a class="page-link" href="#">7</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
 		</div>
 	</div>
 </div>
