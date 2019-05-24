@@ -160,8 +160,20 @@ second key-value pair
 <br /> <br />
 <p>That's it for this lesson.I hope you have enjoyed it. If you want to give any suggestions please let us know in the comments section.</p>
 <p>Have a great day!</p>
+<ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="/pages/introduction2/">Previous</a></li>
+  <li class="page-item "><a class="page-link" href="/projects/project1">0</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/introduction2/">1</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/variables/">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">4</a></li>
+  <li class="page-item"><a class="page-link" href="#">5</a></li>
+  <li class="page-item"><a class="page-link" href="#">6</a></li>
+  <li class="page-item"><a class="page-link" href="#">7</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+ </ul>
+
 </div>
-      
       
       
 </div>
