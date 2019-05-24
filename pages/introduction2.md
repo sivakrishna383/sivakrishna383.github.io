@@ -117,7 +117,6 @@ print("Hello, World!")<br />
 <span class="kn">Output: Hello world!</span>
     </code></pre></figure>
     <p>That's it for this lesson. I hope you get the basic introduction to the python language syntax. We will meet in the next lesson. Until then bye-bye!!!!!!!!!!!!!! <br/> Have a great day!</p>
-  </div>
   
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/projects/project1">Previous</a></li>
@@ -129,9 +128,11 @@ print("Hello, World!")<br />
   <li class="page-item"><a class="page-link" href="#">5</a></li>
   <li class="page-item"><a class="page-link" href="#">6</a></li>
   <li class="page-item"><a class="page-link" href="#">7</a></li>
-  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/variables/">Next</a></li>
   </ul>
-		</div>
+</div>
+  
+</div>
 	</div>
 </div>
 
