@@ -25,20 +25,10 @@ description: "Introduction to the python programming language"
     </div>
 </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#toc">Table Of Contents</button>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#toc">Table Of Contents</button>
   <div id="toc" class="collapse" align="left" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
       <h1>Table of Contents</h1>
 	<ol class="list-group list-group-flush">
@@ -128,3 +118,15 @@ print("Hello, World!")<br />
     </code></pre></figure>
     <p>That's it for this lesson. I hope you get the basic introduction to the python language syntax. We will meet in the next lesson. Until then bye-bye!!!!!!!!!!!!!! <br/> Have a great day!</p>
   </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
