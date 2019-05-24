@@ -65,8 +65,8 @@ y = 4.5673
 <span class="k">print</span><span class="p">(</span><span class="s">y)</span><br />
 
 <span class="kn">Output:</span><br />
-10<br />
-siva<br />
+10
+siva
 4.5673
 </code></pre></figure>
  <p>The data type of a variable can be change at any time. For suppose at first you have iitialised a variable x=5, later in your code you initialise x="some name", then x will take the datatype integer until you assign the string data-type to x. See it in the below example.</p>
@@ -95,22 +95,26 @@ Assigning same value to multiple variables
  </code></pre></figure>
  <p>Here variable a is assined with integer value 1, b is assigned with float value 1.5 and variable c is assigned with string value "a string"./p>
 <p>Python has 5 standard data types. They are - </p>
-<ol align="center">
+<div align="center">
+	<ol >
 	<li>Number (int, float)</li>
 	<li>String</li>
 	<li>List</li>
 	<li>Tuple</li>
 	<li>Dictionary</li>
-</ol>
+	</ol>
+</div>
 <p>We will discuss about each of the data type in brief. We will go into the deep discussion about each of them in later lessons of this course. Let's begin the introduction about each of the above............</p>
 <h3>1) Numbers</h3>
 <p>Numbers means numeric values. There are for different types that python supports-</p>
-<ul align="center">
+<div align="center">
+<ul>
 	<li>int (5, -5, 110, -110 etc.)</li>
 	<li>long int (123456789L, 0154L, etc.)</li>
 	<li>float (1.5, 3.14, 6.7567, etc.)</li>
 	<li>complex (3.14j, 1+5j, 3-2j, etc)</li>
 </ul>
+</div>
 <h3>2) String</h3>
 <p>Strings in python are continuous set of characters that repreented in a single or double quotation-marks. Each character in a string will have indexes starting from zero. So we can select a substring from a string using the indexes. The index values will start from 0,1,2 etc. from the beginning and -1,-2,-3, etc. from the end of the string. We will select a substring using slice operator([start index : end index]).</p>
 <figure class="highlight"><pre><code class="language-python" data-lang="python">
