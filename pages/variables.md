@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Introduction
-description: "Introduction to the python programming language"
+title: Variables
+description: "Introduction to the python variables"
 
 ---
 
