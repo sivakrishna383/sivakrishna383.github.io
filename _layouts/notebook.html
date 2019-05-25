@@ -146,6 +146,11 @@ layout: default
 
 <!-- Post Content -->
 {% include imagezoom.html %}
+
+<article>
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 <button type="button" class="btn btn-outline-primary collapsed" data-toggle="collapse" data-target="#toc" aria-expanded="false">Table Of Contents</button>
 <div id="toc" class="collapse" align="center" style="margin-left: 20%; line-height: 1.6; font-size: 20px;">
 <h1>Table of Contents</h1>
@@ -169,11 +174,6 @@ layout: default
 		<a href="#"><li class="list-group-item">Arrays</li></a>
         </ul>
 </div>
-<article>
-    <div id="content" class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
 {{ content }}
 
 {% assign notebookadress = page.notebookfilename %}
