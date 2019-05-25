@@ -153,7 +153,7 @@
     "    <h3>Some mathematical functions on Numbers in python</h3>\n",
     "    <ul>\n",
     "        <li><b>math.abs(x)</b> - <br />Absolute value means how far a value is from zero. Let's see it in the below figure.<br/>\n",
-    "        <img src=\"number_abs.jpg\"><br /> In the above figure absolute value of -5 will be distance from zero which is 5. The absolute value of 6 is the distance from zero which is 6.\n",
+    "        <img src=\"img/number_abs.jpg\"><br /> In the above figure absolute value of -5 will be distance from zero which is 5. The absolute value of 6 is the distance from zero which is 6.\n",
     "        </li>\n",
     "        <li><b>math.ceil(x)</b> - <br />ceiling of x means the smallest value of integer value greater than or equal to x. It means the +1 to the integer part of x<br/><b>Ex:</b> ceil(1.678) = 2, ceil(56.21)=57</li>\n",
     "        <li><b>math.exp(x)</b> - <br />It will return the exponential value of x.</li>\n",
