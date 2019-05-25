@@ -52,7 +52,7 @@ description: "Introduction to the python variables"
 	</ul>
       </div>
       
-<div class="main_cntent">
+<div class="main_content">
           <p>Variables are memory locations to store some values. It means that when you create a variable you are allocating some space in memory to store a value. The reserved memory will be depend on the datatype of the variable you assign.</p>
           <p>Unlike other programming languages in python there is no need of defining the data type of the variables. A  variable will be created when you first assign a value to it. The value can be any datatype. This means you can assign an integer value of 10 to a variable x by just assigning as x=5.</p>
           Examples of variable assignment
@@ -95,7 +95,7 @@ Assigning same value to multiple variables
  </code></pre></figure>
  <p>Here variable a is assined with integer value 1, b is assigned with float value 1.5 and variable c is assigned with string value "a string"./p>
 <p>Python has 5 standard data types. They are - </p>
-<div align="center">
+<div align="left">
 	<ol >
 	<li>Number (int, float)</li>
 	<li>String</li>
@@ -107,7 +107,7 @@ Assigning same value to multiple variables
 <p>We will discuss about each of the data type in brief. We will go into the deep discussion about each of them in later lessons of this course. Let's begin the introduction about each of the above............</p>
 <h3>1) Numbers</h3>
 <p>Numbers means numeric values. There are for different types that python supports-</p>
-<div align="center">
+<div align="left">
 <ul>
 	<li>int (5, -5, 110, -110 etc.)</li>
 	<li>long int (123456789L, 0154L, etc.)</li>
