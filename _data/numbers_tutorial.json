@@ -5,7 +5,7 @@
    "metadata": {},
    "source": [
     "<button type=\"button\" class=\"btn btn-outline-primary collapsed\" data-toggle=\"collapse\" data-target=\"#toc\" aria-expanded=\"false\">Table Of Contents</button>\n",
-    "<div id=\"toc\" class=\"collapse\" align=\"left\" style=\"margin-left: 20%; line-height: 1.6; font-size: 20px;\">\n"
+    "<div id=\"toc\" class=\"collapse\" align=\"left\" style=\"margin-left: 20%; line-height: 1.6; font-size: 20px;\">\n",
     "<h1>Table of Contents</h1>\n",
     "<ul class=\"list-group list-group-flush\">\n",
     "\t\t<a href=\"/projects/project1\"><li class=\"list-group-item\">Python Home</li></a>\n",
@@ -25,7 +25,7 @@
     "\t\t</ul>\n",
     "\t\t<a href=\"#\"><li class=\"list-group-item\">Functions</li></a>\n",
     "\t\t<a href=\"#\"><li class=\"list-group-item\">Arrays</li></a>\n",
-    "        </ul>\n"
+    "        </ul>\n",
     "</div>"
     ]
   },
