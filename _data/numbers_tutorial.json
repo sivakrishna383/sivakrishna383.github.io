@@ -1,0 +1,174 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h2>Numbers</h2>\n",
+    "<p style=\"line-height:1.6;\">As we have discussed in the variables lesson, number is a data type that store numeric values.In numbers changing the value will results in a newly allocated object or memory space.</p>\n",
+    "<h4>Example of assigning numbers to varibles</h4>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "variable1 = 5\n",
+    "variable2 = 10\n",
+    "print(variable1)\n",
+    "print(variable2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<p>You can also delete the reference to a memory location using the <b>del</b> statement.</p>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'variable1' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-2-db970580e880>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m()\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[1;32mdel\u001b[0m \u001b[0mvariable1\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 2\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[0mvariable1\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'variable1' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "del variable1\n",
+    "print(variable1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<p style=\"line-height:1.6;\">As shown in the example above we have first deleted the memory reference. So the variable itself will be deleted from referencing to that memory location. So if we tried to print the variable1 after deleting it, it throws an error <b>NameError: name 'variable1' is not defined</b></p>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div style=\"line-height:2;\">\n",
+    "    <h3>Python supports different numerical data-types</h3>\n",
+    "<ul>\n",
+    "    <li><b>int(signed integers)</b> - These are positive, negative whole numbers and does not have  a decimal point.<br />Ex:- 5,35,-100,-1000</li>\n",
+    "    <li><b>long(long integers) - </b> The size of long integeres is unlimited and a number is denoted as a long integer by adding an uppercase or lowercase L <br />Ex:- 183267L, -8712365L</li>\n",
+    "    <li><b>float(with decimal points) - </b> float represents real numbers with decimal point in between the integer and fractional value. Floats can also be represented with E or e which indicates the power of 10. <br />Ex:- 12.4223, 3.14</li>\n",
+    "    <li><b>complex(complex numbers) - </b> Complex numbers are the numbers in the form of x+yj, where x represents the real numbers and y represents the imaginary number in the imaginary space. Here j is equal to the square root of -1. We generally do not use much <br />Ex:- 5j, 1+5j, -2+6j</li>\n",
+    "</ul>\n",
+    "    </div>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div style=\"line-height:1.6;\">\n",
+    "    <h3>Number Type Conversion</h3>\n",
+    "    <p>In python we can convert one type of data type to another type of data-type. We will check some of the examples by verifying the data type using <b>type(x)</b> which is a default function inn python that tells the data type of a variable x.</p>\n",
+    "</div>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "1.0\n",
+      "<class 'complex'>\n",
+      "(1+0j)\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 1 #We first initializing the data type of x as integer\n",
+    "print(type(x))\n",
+    "print(type(float(x))) #converting the integer type to float data type\n",
+    "print(float(x))\n",
+    "print(type(complex(x))) #converting the integer type to complex data type\n",
+    "print(complex(x))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div style=\"line-height:2;\">\n",
+    "    <h3>Some mathematical functions on Numbers in python</h3>\n",
+    "    <ul>\n",
+    "        <li><b>math.abs(x)</b> - <br />Absolute value means how far a value is from zero. Let's see it in the below figure.<br/>\n",
+    "        <img src=\"number_abs.jpg\"><br /> In the above figure absolute value of -5 will be distance from zero which is 5. The absolute value of 6 is the distance from zero which is 6.\n",
+    "        </li>\n",
+    "        <li><b>math.ceil(x)</b> - <br />ceiling of x means the smallest value of integer value greater than or equal to x. It means the +1 to the integer part of x<br/><b>Ex:</b> ceil(1.678) = 2, ceil(56.21)=57</li>\n",
+    "        <li><b>math.exp(x)</b> - <br />It will return the exponential value of x.</li>\n",
+    "        <li><b>math.floor(x)</b> - <br />It return the largest value of integer less than or equal to x. It means the returned value will be equal to the integer part of x.<br /><b>Ex:</b> floor(1.65)=1</li>\n",
+    "        <li><b>math.log(x)</b> - <br />It returns the natural logarithm value of x. The main condition one should remember i x should always be a positive value (>0).<br /> <b>Ex:</b> log10(x) it wil return the logarithm value of x to the base 10.</li>\n",
+    "        <li><b>math.max(n1,n2,n3,...)</b> - <br />It will return the maximum value among all the values.<br/><b>Ex:</b> max(12,53,231,24,41,1) = 231</li>\n",
+    "        <li><b>math.min(n1,n2,n3,...)</b> - <br />It will return the maximum value among all the values.<br/><b>Ex:</b> max(12,53,231,24,41,1) = 1</li>\n",
+    "        <li><b>pow(a,b)</b> - <br />it will return the value of a**b.<br/><b>Ex:</b> pow(2,3)= 2 to the power of 3 = 8.</li>\n",
+    "        <li><b>sqrt(x)</b> - <br />returns the square root value of x. Here the condition is x should be strictly greater than or equal to zero.<br /><b>Ex:</b> sqrt(16) = 4.</li>\n",
+    "    </ul>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<div style=\"line-height:1.6;\">       \n",
+    "    <p>There are different kinds of funtions exists in python that works on numbers. Some type of functions related to mathematical operations are above discussed and there are other functions like trigonometric functions, random number functions. You can read more about the numbers in the official python <a href=\"https://docs.python.org/2/library/math.html\">documentation</a></p>\n",
+    "    <p>That's it for this lesson. I hope you have understood the concept of numbers well. If you have any suggestions feel free to suggest through comments. </p>\n",
+    "    <p>Have a good day!</p>\n",
+    "</div>"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
