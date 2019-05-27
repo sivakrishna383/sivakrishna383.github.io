@@ -36,7 +36,7 @@ description: "Introduction to the python variables"
 		<a href="/pages/introduction2/"><li class="list-group-ite">Introduction</li></a>
 		<a href="/pages/variables/"><li class="list-group-item active">Variables</li></a>
 		<a href="/pages/numbers/"><li class="list-group-item">Numbers</li></a>
-		<a href="#"><li class="list-group-item">Strings</li></a>
+		<a href="/pages/strings4/"><li class="list-group-item">Strings</li></a>
 		<a href="#"><li class="list-group-item">Operators</li></a>
 		<a href="#"><li class="list-group-item">Lists and Tuples</li></a>
 		<a href="#"><li class="list-group-item">Sets</li></a>
@@ -170,7 +170,7 @@ second key-value pair
   <li class="page-item"><a class="page-link" href="/pages/introduction2/">1</a></li>
   <li class="page-item active"><a class="page-link" href="/pages/variables/">2</a></li>
   <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
-  <li class="page-item"><a class="page-link" href="#">4</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/strings4/">4</a></li>
   <li class="page-item"><a class="page-link" href="#">5</a></li>
   <li class="page-item"><a class="page-link" href="#">6</a></li>
   <li class="page-item"><a class="page-link" href="#">7</a></li>
