@@ -285,10 +285,10 @@ upto the last character. In order to select tha last character also we left the 
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/pages/numbers/">Previous</a></li>
   <li class="page-item "><a class="page-link" href="/projects/project1">0</a></li>
-  <li class="page-item active"><a class="page-link" href="/pages/introduction2/">1</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/introduction2/">1</a></li>
   <li class="page-item"><a class="page-link" href="/pages/variables/">2</a></li>
   <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
-  <li class="page-item"><a class="page-link" href="/pages/strings4">4</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/strings4">4</a></li>
   <li class="page-item"><a class="page-link" href="#">5</a></li>
   <li class="page-item"><a class="page-link" href="#">6</a></li>
   <li class="page-item"><a class="page-link" href="#">7</a></li>
