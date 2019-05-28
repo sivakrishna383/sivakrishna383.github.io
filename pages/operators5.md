@@ -184,7 +184,7 @@ print(-5 // 2)<br />
 			a = a**5.</li>
 		<li><b> //= </b> <br> Similar to above operator by replacing Exponential with floor division operation.<b>Ex:</b> a //= 5 
 			similar to a = a//5.</li>
-	</ul>
+</ul>
 <p>Examples of assignment operators</p>
 <!--Code block -->
 <figure class="highlight">
@@ -330,7 +330,7 @@ False
 		operand it will return true else it will return false.</li>
 	<li><b>not in</b> <br> If the value of leftt operand is present in right operand sequence a member of the sequence of thr right 
 		operand it will return false else it will return true.</li>
-<ul>
+</ul>
 <p>Examples of Membership operators</p>
 <!--Code block -->
 <figure class="highlight">
