@@ -304,7 +304,7 @@ False
 		will return true else will return false.</li>
 	<li><b>is not</b> <br> If the two operands on both sides of the operator point to the same memory location or same 
 		object then it will return fasle, Else it will return true.</li>
-<ul>
+</ul>
 <p>Examples of Identity operators</p>
 <!--Code block -->
 <figure class="highlight">
@@ -312,6 +312,7 @@ False
 a = 5
 b = a
 # If we assign values like above two statements both will point to same memory location.
+
 print(a is b)
 
 print(a is not b)
