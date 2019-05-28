@@ -349,16 +349,70 @@ False
 </figure>
 
 <h4>Bitwise Operators</h4>
+<p>Bitwise operators works on bits. As the name suggests they work on each bit by bit. Foe example a=41 it wll be represented in binary bits form as 0100 0001. Take one example with Binary AND operator.<br/>
+a = 41 (0010 1001), b = 25 (0001 1001)
+	<pre>
+	a & b (a AND b) => 0010 1001
+	                   0001 1001
+			   ---------
+		      (9)  0000 1001
+	</pre>
+</p>
 <ul>
 	<li><b> & (Binary AND)</b> <br> if both operands have bit 1 reurns 1 else returns 0.</li>
 	<li><b> | (Binary OR)</b> <br> IF either one of the operand bit is 1 it will return 1 else it will return 0.</li>
-	<li><b></b> <br></li>
-	<li><b></b> <br></li>
-	<li><b></b> <br></li>
-	<li><b></b> <br></li>
-ul>
+	<li><b> ^ (Binary XOR)</b> <br> If both bits of the two operands are same it will return 0. If both are different it will return 
+		1. </li>
+	<li><b> ~ (Binary Ones Compliment)</b> <br> It returns the bit which is the compliment of the original bit. It means if the 
+		original bit is 1 it will return 0 and vice versa.</li>
+	<li><b> << (Binary LEFT SHIFT)</b> <br> The operand on left will be shifted left by the number of bits specified by the number 
+		value on right side of the operator.</li>
+	<li><b> >> (Binary RIGHT SHIFT)</b> <br> The operand on left will be shifted right by the number of bits specified by the number 
+		value on right side of the operator.</li>
+</ul>
+<p>Examples of Bitwise operators</p>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 41
+b = 25
+# If we assign values like above two statements both will point to same memory location.
+print(a & b)
 
+print(a | b)
 
+print(a ^ b)
+
+print(~(a))
+
+print(a << 2)
+
+print(a >> 2)<br />
+<b>Ouput:</b>
+9
+57
+48
+-42
+164
+10
+</code></pre>
+</figure>
+<h4>Precedence(which works first when all mixed) Order of the operators from high to low</h4>
+<ol>
+	<li>**</li>
+	<li>~, +, -</li>
+	<li>*, /, %, //</li>
+	<li>>>, <<</li>
+	<li>&</li>
+	<li>^, |</li>
+	<li><=, <, >, >=</li>
+	<li><>, ==, !=</li>
+	<li>=, %=, /=, //=, -=, +=, *=, **=</li>
+	<li>is, is not</li>
+	<li>in, not in</li>
+	<li>not, or, and</li>
+</ol>
+<p>That's it for this lesson. I hope you all liked it. If you want to give any suggestion please feel free to let us know them thriugh the comment section. Have a great day!</p>
 
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/pages/strings4/">Previous</a></li>
