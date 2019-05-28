@@ -37,7 +37,7 @@ title: Strings
 		<a href="/pages/variables/"><li class="list-group-item">Variables</li></a>
 		<a href="/pages/numbers/"><li class="list-group-item">Numbers</li></a>
 		<a href="/pages/strings4"><li class="list-group-item active">Strings</li></a>
-		<a href="#"><li class="list-group-item">Operators</li></a>
+		<a href="/pages/operators5/"><li class="list-group-item">Operators</li></a>
 		<a href="#"><li class="list-group-item">Lists and Tuples</li></a>
 		<a href="#"><li class="list-group-item">Sets</li></a>
 		<a href="#"><li class="list-group-item">Dictionaries</li></a>
@@ -289,10 +289,10 @@ upto the last character. In order to select tha last character also we left the 
   <li class="page-item"><a class="page-link" href="/pages/variables/">2</a></li>
   <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
   <li class="page-item active"><a class="page-link" href="/pages/strings4">4</a></li>
-  <li class="page-item"><a class="page-link" href="#">5</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/operators5/">5</a></li>
   <li class="page-item"><a class="page-link" href="#">6</a></li>
   <li class="page-item"><a class="page-link" href="#">7</a></li>
-  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/operators5/">Next</a></li>
   </ul>
 </div>
   
