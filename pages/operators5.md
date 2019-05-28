@@ -68,20 +68,42 @@ title: Operators
 	</ul>
   <h4>Arithmetic operators</h4>
 	<ul>
-		<li><b>Addition (+)</b> - <br /> 
-			<!--Code block -->
-			<figure class="highlight">
-			<pre><code class="language-python" data-lang="python">
- 			a = 5
-			b = 2
-			print(5+2)<br />
-			<b>Ouput:</b>
-			7
-			</code></pre>
-			</figure>
+		<li><b>Addition (+)</b> - Adds two operands on both sides of the operator.<br /> 	
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(5+2)<br />
+<b>Ouput:</b>
+7
+</code></pre>
+</figure>
 		</li>
-		<li><b></b></li>
-		<li><b></b></li>
+		<li><b>Subtraction (-)</b>subtract two operands on both sides of the operator. <br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(5-2)<br />
+<b>Ouput:</b>
+3
+</code></pre>
+</figure>
+		</li>
+		<li><b>Multiplication (*)</b> - multiplies two operands on both sides of the operator.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(5*2)<br />
+<b>Ouput:</b>
+10
+</code></pre>
+</figure>
+		</li>
 		<li><b></b></li>
 		<li><b></b></li>
 		<li><b></b></li>
