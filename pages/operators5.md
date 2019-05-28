@@ -56,6 +56,38 @@ title: Operators
 
 <div class="maincontent">
   <h3>Operators</h3>
+  <p>Operators in python are special symbols that carryout operations between variables or values. For example 1+2=3 here 1,2 are operands and + is the operator symbol for addition. Python hass divided operators into different groups.</p>
+	<ul>
+		<li>Arithmetic operators</li>
+		<li>Assignment operators</li>
+		<li>Comparison operators</li>
+		<li>Logical operators</li>
+		<li>Identity operators</li>
+		<li>Membership operators</li>
+		<li>Bitwise operators</li>
+	</ul>
+  <h4>Arithmetic operators</h4>
+	<ul>
+		<li><b>Addition (+)</b> - <br /> 
+			<!--Code block -->
+			<figure class="highlight">
+			<pre><code class="language-python" data-lang="python">
+ 			a = 5
+			b = 2
+			print(5+2)<br />
+			<b>Ouput:</b>
+			7
+			</code></pre>
+			</figure>
+		</li>
+		<li><b></b></li>
+		<li><b></b></li>
+		<li><b></b></li>
+		<li><b></b></li>
+		<li><b></b></li>
+		<li><b></b></li>
+	</ul>
+
 
 
   <ul class="pagination justify-content-center">
