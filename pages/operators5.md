@@ -169,9 +169,58 @@ print(-5 // 2)<br />
 	</ul>
 <h4> Assignment operators</h4>
 	<ul>
-		<li><b></b></li>
+		<li><b> = </b>  <br> It assigns the right hand side value to the left hand variable. <b>Ex:</b> a = 2+3, b = 1+2.</li>
+		<li><b> += </b>  <br> It will assign a value to the left hand side variable by adding left hand variable to the right 
+			hand value. <b>Ex:</b> a += 5 is similar to a = a+5.</li>
+		<li><b> -= </b> <br> It will assign a value to the left hand side variable by subtracting right hand value  from left 
+			hand value or variable. <b>Ex:</b> a -= 5 is similar to a = a-5.</li>
+		<li><b> *= </b> <br> Similar to above operator by replacing subtraction with multiplication. <b>Ex:</b> a *= 5 similar 
+			to a = a*5.</li>
+		<li><b> /= </b> <br> Similar to above operator by replacing the multiplication with division. <b>Ex:</b> a /= 5 => a = 
+			a/5.</li>
+		<li><b> %= </b>Similar to above operator by replacing division with modulus operation.<b>Ex:</b> a %= 5 similar to a = 
+			a%5.</li>
+		<li><b> **= </b>Similar to above operator by replacing modulus with Exponential operation.<b>Ex:</b> a **= 5 similar to 
+			a = a**5.</li>
+		<li><b> //= </b>Similar to above operator by replacing Exponential with floor division operation.<b>Ex:</b> a //= 5 
+			similar to a = a//5.</li>
 	</ul>
-
+p>Examples of assignment operators</p>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a,b = 5,2
+a += b
+print(a)
+a,b = 5,2
+a -= b
+print(a)
+a,b = 5,2
+a *= b
+print(a)
+a,b = 5,2
+a /= b
+print(a)
+a,b = 5,2
+a %= b
+print(a)
+a,b = 5,2
+a **= b
+print(a)
+a,b = 5,2
+a //= b
+print(a)
+<br />
+<b>Ouput:</b>
+7
+3
+10
+2
+1
+25
+2
+</code></pre>
+</figure>
 
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/pages/strings4/">Previous</a></li>
