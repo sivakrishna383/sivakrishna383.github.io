@@ -74,7 +74,7 @@ title: Operators
 <pre><code class="language-python" data-lang="python">
 a = 5
 b = 2
-print(5+2)<br />
+print(a+b)<br />
 <b>Ouput:</b>
 7
 </code></pre>
@@ -86,7 +86,7 @@ print(5+2)<br />
 <pre><code class="language-python" data-lang="python">
 a = 5
 b = 2
-print(5-2)<br />
+print(a-b)<br />
 <b>Ouput:</b>
 3
 </code></pre>
@@ -98,18 +98,79 @@ print(5-2)<br />
 <pre><code class="language-python" data-lang="python">
 a = 5
 b = 2
-print(5*2)<br />
+print(a*b)<br />
 <b>Ouput:</b>
 10
 </code></pre>
 </figure>
 		</li>
-		<li><b></b></li>
-		<li><b></b></li>
-		<li><b></b></li>
+		<li><b>Division (/)</b> - Divides the left hand variable with right hand variable of the operator.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 6
+b = 2
+print(a/b)<br />
+<b>Ouput:</b>
+3
+</code></pre>
+</figure>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(a/b) <span clas="c">#It will return the integer values only. Example we get 2.5 but it return only 2.</span><br />
+<b>Ouput:</b>
+2
+</code></pre>
+</figure>
+		</li>
+		<li><b>Moudlus (%)</b> - It returns the remainder by dividing the left side operand with right side operand of the 			operator. The quotient should be an integer value and not a float.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(a/b)<br />
+<b>Ouput:</b>
+1
+</code></pre>
+</figure>
+		</li>
+		<li><b>Exponent (**)</b> - It will return a value that is left hand variable to the power of right hand variable.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(a**b)<br />
+<b>Ouput:</b>
+25
+</code></pre>
+</figure>
+		</li>
+		<li><b>Floor division (//)</b> - it first do the division of operands and if the quotient is positive the decimal point 		will be removed. If quotient is negative the result will rounded to the negative infinity.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+a = 5
+b = 2
+print(5//2)
+print(5.0//2.0)
+print(-5 // 2)<br />
+<b>Ouput:</b>
+2
+2.0
+-3
+</code></pre>
+</figure>
+		</li>
+	</ul>
+<h4> Assignment operators</h4>
+	<ul>
 		<li><b></b></li>
 	</ul>
-
 
 
   <ul class="pagination justify-content-center">
