@@ -126,9 +126,51 @@ print("Deleting the first element at index0: ", list1)<br />
 <b>Ouput:</b>
 [1, 2.64, "a string", [1, 2, 3]]
 [2.64, 'a string', [1, 2, 3]]
-</code></p
+</code></pre>
+</figure>
 
-<h4>Basic Operators</h4>
+<h4>Use of Basic Operators</h4>
+<p>In python most of the basic operators are most useful for the manipulation of elements of the list. Let's see the operations with examples</p>
+<ul>
+	<li><b>Concatenation( Using + )</b> - concatenation means adding new elements of second list from the end of the first list.<br		/> 
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+print("concatenating list1 and list2: ", list1+list2)<br />
+<b>Ouput:</b>
+concatenating list1 and list2: [1, 2, 3, 4, 5, 6]
+</code></pre>
+</figure>
+	</li>
+	<li><b>Repetition (using * )</b> - In repetition we can define a list with all elements same but repeating manny times.</br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+print("Repeting single element 5 times in a list: ", [4]*5)<br />
+<b>Ouput:</b>
+Repeting single element 5 times in a list: [4, 4, 4, 4, 4]
+</code></pre>
+</figure>
+	</li>
+	<li><b>Membership operator</b><br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+x = [1, 2, 3]
+
+print("Is 4 present in list? : ", 4 in x)
+print("Is 3 present in list? : ", 3 in x)
+<br />
+<b>Ouput:</b>
+Is 4 present in list? : False
+Is 3 present in list? : True
+</code></pre>
+</figure>
+	</li>
+</ul>
+
 
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/pages/strings4/">Previous</a></li>
