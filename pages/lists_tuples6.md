@@ -56,11 +56,9 @@ title: Lists & Tuples
 
 <div class="maincontent">
 	
-<h3>Lists and Tuples</h3>
-<h4>Lists</h4>
+<h3>Lists</h3>
 <p>From all the coumpound data types lists are the most versatile data type that used to group the values together. A list is writing all the values by separating with commas and enclosed in square brackets. Lists are ordered means elements of list have indexes and they can be changeable. Lists allow dupicate members, it means we can have same values multiple times in a list.</p>
-<h4>Tuples</h4>
-<p>Tuples also sequence of values or elements just like lists but the elements of a tuple are immutable(can not be changeable). Elements of a tuple are comma-spearated values enclosed in parentheses. For tupes parentheses is just optional you can define a tuple directly writing comma-separated values without parentheses.</p>
+
 <!--Code block -->
 <p>Creating a list</p>
 <figure class="highlight">
@@ -170,6 +168,300 @@ Is 3 present in list? : True
 </figure>
 	</li>
 </ul>
+
+<h4>Built-in Functions</h4>
+<ul>
+	<li><b>len(list)</b> - It gives the total number of elements in a list.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("Length of the list : ", len(x))
+<br />
+<b>Ouput:</b>
+Length of the list : 10
+</code></pre>
+</figure>
+	</li>
+	<li><b>cmp(list1, list2)</b> - It compares all the elements of two lists. If all the elements of two lists are same it will 
+		return 0. If all the elements of list1 are greater than list2 then it will return 1. In Else case it will return -1. 
+		Number values can be easily checked but in strings each character will be checked so 'q' is greater than 'a'. Let's see 
+		an example.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, "abc"]
+list2 = [1, 2, "def"]
+list3 = [1, 2, 3]
+list4 = [1, 2, 3]
+print("List2 is greater than list1: ", cmp(list1, list2))
+print("List2 is greater than list1: ", cmp(list2, list1))
+print("List3 and list4 have all elements same: ", cmp(list3, list4))
+<br />
+<b>Ouput:</b>
+-1
+1
+0
+</code></pre>
+</figure>
+	</li>
+	<li><b>max(list)</b> - To use this all the elements of a list should be of same data-type(integers or strings or floats). From 
+		all the elements of a list it will give the maximum element. IF all elements are strings it will give maximum element 
+		based on alphabetical order.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 76, 7, 23, 97, 723, 232]
+list2 = ['abcd', 'defg', 'hijk']
+print("maximum of list1 : "max(list1))
+print("maximum of list2 : "max(list2))
+<br />
+<b>Ouput:</b>
+723
+hijk
+</code></pre>
+</figure>
+	</li>
+	<li><b>min(list)</b> - It is similar to the max() function. It will give the minimum value from all the elemnts of the list and 
+		all the elements should be of same datatype.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 76, 7, 23, 97, 723, 232]
+list2 = ['abcd', 'defg', 'hijk']
+print("minimum of list1 : "min(list1))
+print("minimum of list2 : "min(list2))
+<br />
+<b>Ouput:</b>
+1
+abcd
+</code></pre>
+</figure>
+	</li>
+	<li><b>list(sequence)</b> - It converts any sequence or any datatype into a list. Let's see few examples.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+str = "This is a string"
+print("converting a string into a list: ", list(str))
+tuple1 = (1,2,3,4)
+print("converting a tuple into a list: ", list(tuple1))
+<br />
+<b>Ouput:</b>
+['t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g']
+[1, 2, 3, 4]
+</code></pre>
+</figure>
+	</li>
+</ul>
+
+<h4>Built-in methods</h4>
+	<ul>
+		<li><b>list.append(element)</b> - It will be used to append a new element at the end of the list. The new element can be a single object or asequence of objects but it can be treated as a single element after the append function applied.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3]
+list1.append(4)
+print("appending a single element: ", list1)
+list1.append([5, 6, 7])
+print("appending another list: ", list1)
+<br />
+<b>Ouput:</b>
+appending a single element: [1, 2, 3, 4]
+appending another list: [1, 2, 3, 4, 5, 6, 7]
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.count(element)</b> - It will return the total number of time an element present in the list.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5, 1, 3, 7, 1, 3, 4, 5, 6, 3]
+print("Number of times 3 occur in the list: ", list1.count(3))
+<br />
+<b>Ouput:</b>
+Number of times 3 occur in the list: 4
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.extend(sequence)</b> - similar to the append() method but here if sequence is appended all the elements of the sequence will be appended as elements of the list and not as a single element.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+print("extending list1 with elements of list2: ", list1.extend(list2))
+<br />
+<b>Ouput:</b>
+extending list1 with elements of list2: [1, 2, 3, 4, 5, 6]
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.index(ele)</b> - It will return the first index of the element where it found.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5, 1, 3, 7, 1, 3, 4, 5, 6, 3]
+print("First occurence of element 3 is at index: ", list1.index(3))
+<br />
+<b>Ouput:</b>
+First occurence of element 3 is at index: 2
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.insert(index, ele)</b> - It inserts an element at a given index in the list.It just adds new element at given index and the previous elemnt will be shifted to next index number.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5]
+list1.insert(2, 4)
+print("Inserting new element at index2: ", list1)
+<br />
+<b>Ouput:</b>
+Inserting new element at index2:  [1, 2, 4, 3, 5]
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.pop(index)</b> - It will return element at given index and delete permanently from the list. Index argument is optional. If no argument given then the last element of the list will be popped out.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5]
+print("Popping out element at index2: ", list1.pop(2))
+<br />
+<b>Ouput:</b>
+Popping out element at index2: 3
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.remove(ele)</b> - removes the element that is given from the list. If the given element not present in the list it will throw a value-error saying the element not found.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5]
+list1.remove(5)
+print("removing element 5 from list: ", list1)
+<br />
+<b>Ouput:</b>
+removing element 5 from list: [1, 2, 3]
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.reverse()</b> - Reverse the positions of all the elements in the list. First element goes to last in new list.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3, 5]
+list1.reverse()
+print("reversing all the elements: ", list1)
+<br />
+<b>Ouput:</b>
+[5, 3, 2, 1]
+</code></pre>
+</figure>
+		</li>
+		<li><b>list.sort()</b> - It does not return any value but it arranges all the elements of list in ascending order.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [10, 4, 7, 2, 1, 90, 32]
+list1.sort()
+print("Sorting all the elements: ", list1)
+<br />
+<b>Ouput:</b>
+[1, 2, 4, 7, 10, 32, 90]
+</code></pre>
+</figure>
+		</li>
+	</ul>
+
+<h3>Tuples</h3>
+<p>Tuples also sequence of values or elements just like lists but the elements of a tuple are immutable(can not be changeable). Elements of a tuple are comma-spearated values enclosed in parentheses. For tupes parentheses is just optional you can define a tuple directly writing comma-separated values without parentheses.</p>
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3)
+tuple2 = 4, 5, 6
+print(tuple1)
+print(tuple2)<br />
+<b>Ouput:</b>
+(1, 2, 3)
+(4, 5, 6)
+</code></pre>
+</figure>
+
+<h4>Operations on tuples</h4>
+<p>Unlike lists tuples are immutable and we can not change the data, but we can access the data. There are few operations that can apply on tuples. Let's see with examples</p>
+<ul>
+	<li><b>Accessing Values</b><br />
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3)
+print(tuple1[0])
+print(tuple1)<br />
+<b>Ouput:</b>
+1
+(1, 2, 3)
+</code></pre>
+</figure>
+	</li>
+	<li><b>Updating tuples</b> -  We cannnot modify the elements but we can add element by concatenation.<br /> 
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3)
+tuple2 = 4, 5, 6
+print("Concatenating tuple1 and tuple2 : ",tuple1+tuple2)<br />
+<b>Ouput:</b>
+Concatenating tuple1 and tuple2 : (1, 2, 3, 4, 5, 6)
+</code></pre>
+</figure>
+	</li>
+	<li><b>Deleting tuples</b> - Individual elements cannot be deleted due to the immutable nature of the tuple. But instead we can delete the complete tuple using del statement. After deleting we cannot access the tuple.<br />
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3)
+del tuple1
+print(tuple1)<br />
+<b>Ouput:</b>
+NameError: name 'tup' is not defined
+</code></pre>
+</figure>
+	</li>
+	<li><b>len(tuple)</b><br />
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3)
+print(len(tuple1))<br />
+<b>Ouput:</b>
+3
+</code></pre>
+</figure>
+	</li>
+	<li><b>Repetition</b><br />
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+print("Repeting an element four times: ", ('hello')*4)<br />
+<b>Ouput:</b>
+Repeting an element four times: ('hello', 'hello', 'hello', 'hello')
+</code></pre>
+</figure>
+	</li>
+	<li><b></b></li>
+	<li><b></b></li>
+</ul>
+
 
 
   <ul class="pagination justify-content-center">
