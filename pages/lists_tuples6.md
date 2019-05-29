@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Operators
+title: Lists & Tuples
 ---
 
 <!-- Page Header -->
@@ -55,365 +55,80 @@ title: Operators
 
 
 <div class="maincontent">
-  <h3>Operators</h3>
-  <p>Operators in python are special symbols that carryout operations between variables or values. For example 1+2=3 here 1,2 are operands and + is the operator symbol for addition. Python hass divided operators into different groups.</p>
-	<ul>
-		<li>Arithmetic operators</li>
-		<li>Assignment operators</li>
-		<li>Comparison operators</li>
-		<li>Logical operators</li>
-		<li>Identity operators</li>
-		<li>Membership operators</li>
-		<li>Bitwise operators</li>
-	</ul>
-  <h4>Arithmetic operators</h4>
-	<ul>
-		<li><b>Addition (+)</b> - Adds two operands on both sides of the operator.<br /> 	
+	
+<h3>Lists and Tuples</h3>
+<h4>Lists</h4>
+<p>From all the coumpound data types lists are the most versatile data type that used to group the values together. A list is writing all the values by separating with commas and enclosed in square brackets. Lists are ordered means elements of list have indexes and they can be changeable. Lists allow dupicate members, it means we can have same values multiple times in a list.</p>
+<h4>Tuples</h4>
+<p>Tuples also sequence of values or elements just like lists but the elements of a tuple are immutable(can not be changeable). Elements of a tuple are comma-spearated values enclosed in parentheses. For tupes parentheses is just optional you can define a tuple directly writing comma-separated values without parentheses.</p>
+<!--Code block -->
+<p>Creating a list</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+list1 = [1, 2, 3]
+print(list1)<br />
+<b>Ouput:</b>
+[1, 2, 3]
+</code></pre>
+</figure>
+<p>In a list the elements can be of same data-type or different data-type. For example a list can have some elements as integers, some elements as floats, and some elements can be even strings. A list can have another list as an element. Let's see an example</p>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a+b)<br />
+list1 = [1, 2.64, "a string", [1, 2, 3]]
+print(list1)<br />
 <b>Ouput:</b>
-7
+[1, 2.64, "a string", [1, 2, 3]]
 </code></pre>
 </figure>
-		</li>
-		<li><b>Subtraction (-)</b>subtract two operands on both sides of the operator. <br />
+
+<h4>Accessing values in a list</h4>
+<p>Like Strings we can access the elements by indices. The first element in a list will have index 0, second element will have index 1, and so on. To access the elements of a list we use a slice operator ([] or [:]). This [] can be used to select a single element and [:] This can be used to select a sequence of elements.</p>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a-b)<br />
+list1 = [1, 2.64, "a string", [1, 2, 3]]
+print("Single element list[1]: ", list1[1])
+print("Sequence of elements list[1:4]: ", list[1:4])<br />
 <b>Ouput:</b>
-3
+2.64
+[2.64, "a string", [1, 2, 3]]
 </code></pre>
 </figure>
-		</li>
-		<li><b>Multiplication (*)</b> - multiplies two operands on both sides of the operator.
+
+<h4>Updation of a list</h4>
+<p>One can update the elements of a list by assigning new value to that particular element index which we want to update. We can update single or multiple elements of a list at a time. We can update list by adding new elements to the list using append() function which we can discuss in the subsequent sections.</p>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a*b)<br />
+list1 = [1, 2.64, "a string", [1, 2, 3]]
+print("Initial list: ", list1)
+list1[0] = 5
+print("Updating the first element: ", list1)
+list1[1:4] = [1, 2, 3]
+print("updating list from index1 to index3 :", list1)<br />
 <b>Ouput:</b>
-10
+[1, 2.64, "a string", [1, 2, 3]]
+[5, 2.64, 'a string', [1, 2, 3]]
+[5, 1, 2, 3]
 </code></pre>
 </figure>
-		</li>
-		<li><b>Division (/)</b> - Divides the left hand variable with right hand variable of the operator.
+
+<h4>Delete elements of a list</h4>
+<p>Inorder to delete an element from the list we use del statement by selecting the index of the element.If you do not know the index of the elemnt you can directly remove using the lement itself with remove() function which we discuss in the later sections.</p>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
-a = 6
-b = 2
-print(a/b)<br />
+list1 = [1, 2.64, "a string", [1, 2, 3]]
+print("Initial list: ", list1)
+del list1[0]
+print("Deleting the first element at index0: ", list1)<br />
 <b>Ouput:</b>
-3
-</code></pre>
-</figure>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a/b) <span clas="c">#It will return the integer values only. Example we get 2.5 but it return only 2.</span><br />
-<b>Ouput:</b>
-2
-</code></pre>
-</figure>
-		</li>
-		<li><b>Moudlus (%)</b> - It returns the remainder by dividing the left side operand with right side operand of the 			operator. The quotient should be an integer value and not a float.
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a/b)<br />
-<b>Ouput:</b>
-1
-</code></pre>
-</figure>
-		</li>
-		<li><b>Exponent (**)</b> - It will return a value that is left hand variable to the power of right hand variable.
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(a**b)<br />
-<b>Ouput:</b>
-25
-</code></pre>
-</figure>
-		</li>
-		<li><b>Floor division (//)</b> - it first do the division of operands and if the quotient is positive the decimal point 		will be removed. If quotient is negative the result will rounded to the negative infinity.
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 5
-b = 2
-print(5//2)
-print(5.0//2.0)
-print(-5 // 2)<br />
-<b>Ouput:</b>
-2
-2.0
--3
-</code></pre>
-</figure>
-		</li>
-	</ul>
-<h4> Assignment operators</h4>
-	<ul>
-		<li><b> = </b>  <br> It assigns the right hand side value to the left hand variable. <b>Ex:</b> a = 2+3, b = 1+2.</li>
-		<li><b> += </b>  <br> It will assign a value to the left hand side variable by adding left hand variable to the right 
-			hand value. <b>Ex:</b> a += 5 is similar to a = a+5.</li>
-		<li><b> -= </b> <br> It will assign a value to the left hand side variable by subtracting right hand value  from left 
-			hand value or variable. <b>Ex:</b> a -= 5 is similar to a = a-5.</li>
-		<li><b> *= </b> <br> Similar to above operator by replacing subtraction with multiplication. <b>Ex:</b> a *= 5 similar 
-			to a = a*5.</li>
-		<li><b> /= </b> <br> Similar to above operator by replacing the multiplication with division. <b>Ex:</b> a /= 5 => a = 
-			a/5.</li>
-		<li><b> %= </b> <br> Similar to above operator by replacing division with modulus operation.<b>Ex:</b> a %= 5 similar to a = 
-			a%5.</li>
-		<li><b> **= </b> <br> Similar to above operator by replacing modulus with Exponential operation.<b>Ex:</b> a **= 5 similar to 
-			a = a**5.</li>
-		<li><b> //= </b> <br> Similar to above operator by replacing Exponential with floor division operation.<b>Ex:</b> a //= 5 
-			similar to a = a//5.</li>
-</ul>
-<p>Examples of assignment operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a,b = 5,2
-a += b
-print(a)
+[1, 2.64, "a string", [1, 2, 3]]
+[2.64, 'a string', [1, 2, 3]]
+</code></p
 
-a,b = 5,2
-a -= b
-print(a)
-
-a,b = 5,2
-a *= b
-print(a)
-
-a,b = 5,2
-a /= b
-print(a)
-
-a,b = 5,2
-a %= b
-print(a)
-
-a,b = 5,2
-a **= b
-print(a)
-
-a,b = 5,2
-a //= b
-print(a)
-<br />
-<b>Ouput:</b>
-7
-3
-10
-2
-1
-25
-2
-</code></pre>
-</figure>
-
-<h4>Comparison Operators</h4>
-	<ul>
-		<li><b> == </b> <br> If the two values of operands are equal it will return true else return false.</li>
-		<li><b> != </b> <br> If the two values of operands are not equal it returns true else returns false.</li>
-		<li><b> <> </b> <br> It is similar to not equal operator.</li>
-		<li><b> > </b> <br> If the value of left operand is greater than right operand it will return true else it will return 
-			false.</li>
-		<li><b> < </b> <br> If the value of left operand is less than right operand it will return true else it will return 
-			false.</li>
-		<li><b> <= </b> <br> If the value of left hand operand is less than or equal to the right hand operand value it will 
-			return true else it will return false.</li>
-		<li><b> >= </b> <br> If the value of left hand operand is greater than or equal to the value of right hand operand it 
-			will return true else it will return false.</li>
-	</ul>
-<p>Examples of Comparison operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a,b = 5,2
-print(a == b)
-
-print(a != b)
-
-print(a <> b)
-
-print(a < b)
-
-print(a > b)
-
-print(a <= b)
-
-print(a >= b)
-<br />
-<b>Ouput:</b>
-False
-True
-True
-False
-True
-False
-True
-</code></pre>
-</figure>
-
-<h4>Logical Operators</h4>
-<ul>
-	<li><b> and </b> <br> Logical AND - if both operands are true then the condition will return true. If one of the operand is 
-		false it will return false.</li>
-	<li><b> or </b> <br> Logical OR - If one of the operand is true it will return true. If both operands are false then only it 
-		will return false.</li>
-	<li><b> not </b> <br> Logical NOT - If the operand is true it will return false. If operand is false it will return true.</li>
-</ul>
-<p>Examples of Logical operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a,b = 5,2
-
-print(a and b)
-
-print(a or b)
-
-print(not(a))<br />
-<b>Ouput:</b>
-True
-True
-False
-</code></pre>
-</figure>
-
-<h4>Identity operators</h4>
-<ul>
-	<li><b>is</b> <br>If the two operands on both side of the operator point to the same object or same memory location it 
-		will return true else will return false.</li>
-	<li><b>is not</b> <br> If the two operands on both sides of the operator point to the same memory location or same 
-		object then it will return fasle, Else it will return true.</li>
-</ul>
-<p>Examples of Identity operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 5
-b = a
-# If we assign values like above two statements both will point to same memory location.
-
-print(a is b)
-
-print(a is not b)
-
-print(not(a))<br />
-<b>Ouput:</b>
-True
-False
-</code></pre>
-</figure>
-
-<h4>Membership operators</h4>
-<ul>
-	<li><b>in</b> <br>If the value of leftt operand is present in right operand sequence a member of the sequence of thr right 
-		operand it will return true else it will return false.</li>
-	<li><b>not in</b> <br> If the value of leftt operand is present in right operand sequence a member of the sequence of thr right 
-		operand it will return false else it will return true.</li>
-</ul>
-<p>Examples of Membership operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = [1, 2, 3, 4, 5]
-b = 6
-# If we assign values like above two statements both will point to same memory location.
-print(b in a)
-
-print(b not in a)
-
-print(not(a))<br />
-<b>Ouput:</b>
-True
-False
-</code></pre>
-</figure>
-
-<h4>Bitwise Operators</h4>
-<p>Bitwise operators works on bits. As the name suggests they work on each bit by bit. Foe example a=41 it wll be represented in binary bits form as 0100 0001. Take one example with Binary AND operator.<br/>
-a = 41 (0010 1001), b = 25 (0001 1001)
-	<pre>
-	a & b (a AND b) => 0010 1001
-	                   0001 1001
-			   ---------
-		      (9)  0000 1001
-	</pre>
-</p>
-<ul>
-	<li><b> & (Binary AND)</b> <br> if both operands have bit 1 reurns 1 else returns 0.</li>
-	<li><b> | (Binary OR)</b> <br> IF either one of the operand bit is 1 it will return 1 else it will return 0.</li>
-	<li><b> ^ (Binary XOR)</b> <br> If both bits of the two operands are same it will return 0. If both are different it will return 
-		1. </li>
-	<li><b> ~ (Binary Ones Compliment)</b> <br> It returns the bit which is the compliment of the original bit. It means if the 
-		original bit is 1 it will return 0 and vice versa.</li>
-	<li><b> << (Binary LEFT SHIFT)</b> <br> The operand on left will be shifted left by the number of bits specified by the number 
-		value on right side of the operator.</li>
-	<li><b> >> (Binary RIGHT SHIFT)</b> <br> The operand on left will be shifted right by the number of bits specified by the number 
-		value on right side of the operator.</li>
-</ul>
-<p>Examples of Bitwise operators</p>
-<!--Code block -->
-<figure class="highlight">
-<pre><code class="language-python" data-lang="python">
-a = 41
-b = 25
-# If we assign values like above two statements both will point to same memory location.
-print(a & b)
-
-print(a | b)
-
-print(a ^ b)
-
-print(~(a))
-
-print(a << 2)
-
-print(a >> 2)<br />
-<b>Ouput:</b>
-9
-57
-48
--42
-164
-10
-</code></pre>
-</figure>
-<h4>Precedence(which works first when all mixed) Order of the operators from high to low</h4>
-<ol>
-	<li>**</li>
-	<li>~, +, -</li>
-	<li>*, /, %, //</li>
-	<li>>>, <<</li>
-	<li>&</li>
-	<li>^, |</li>
-	<li><=, <, >, >=</li>
-	<li><>, ==, !=</li>
-	<li>=, %=, /=, //=, -=, +=, *=, **=</li>
-	<li>is, is not</li>
-	<li>in, not in</li>
-	<li>not, or, and</li>
-</ol>
-<p>That's it for this lesson. I hope you all liked it. If you want to give any suggestion please feel free to let us know them thriugh the comment section. Have a great day!</p>
+<h4>Basic Operators</h4>
 
   <ul class="pagination justify-content-center">
   <li class="page-item"><a class="page-link" href="/pages/strings4/">Previous</a></li>
