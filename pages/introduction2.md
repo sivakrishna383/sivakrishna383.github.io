@@ -38,7 +38,7 @@ description: "Introduction to the python programming language"
 		<a href="/pages/numbers/"><li class="list-group-item">Numbers</li></a>
 		<a href="/pages/strings4/"><li class="list-group-item">Strings</li></a>
 		<a href="/pages/operators5/"><li class="list-group-item">Operators</li></a>
-		<a href="#"><li class="list-group-item">Lists and Tuples</li></a>
+		<a href="/pages/lists_tuples6/"><li class="list-group-item">Lists and Tuples</li></a>
 		<a href="#"><li class="list-group-item">Sets</li></a>
 		<a href="#"><li class="list-group-item">Dictionaries</li></a>
 		<a href="#"><li class="list-group-item">Loops</li></a>
@@ -126,7 +126,7 @@ print("Hello, World!")<br />
   <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
   <li class="page-item"><a class="page-link" href="/pages/strings4/">4</a></li>
   <li class="page-item"><a class="page-link" href="/pages/operators5/">5</a></li>
-  <li class="page-item"><a class="page-link" href="#">6</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">6</a></li>
   <li class="page-item"><a class="page-link" href="#">7</a></li>
   <li class="page-item"><a class="page-link" href="/pages/variables/">Next</a></li>
   </ul>
