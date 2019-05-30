@@ -458,10 +458,105 @@ Repeting an element four times: ('hello', 'hello', 'hello', 'hello')
 </code></pre>
 </figure>
 	</li>
-	<li><b></b></li>
-	<li><b></b></li>
+	<li><b>Membership function</b><br />
+<!--Code block -->
+<p>Creating a tuple</p>
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+x = (1, 2, 3)
+
+print("Is 4 present in tuple? : ", 4 in x)
+print("Is 3 present in tuple? : ", 3 in x)
+<br />
+<b>Ouput:</b>
+Is 4 present in tuple? : False
+Is 3 present in tuple? : True
+</code></pre>
+</figure>
+	</li>
 </ul>
 
+<h4>Bbuilt-in Functions</h4>
+<ul>
+		<li><b>cmp(tiple1,tuple2)</b> - It compares all the elemets of two tuples. So legth of two tuples should be same. If all elements in tuple1 are greater than tuple2 elements it returns 1, if less than it returns -1 iff equals it returns 0.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, "abc")
+tuple2 = (1, 2, "def")
+tuple3 = (1, 2, 3)
+tuple4 = (1, 2, 3)
+print("tuple2 is greater than tuple1: ", cmp(tuple1, tuple2))
+print("tuple2 is greater than tuple1: ", cmp(tuple2, tuple1))
+print("tuple3 and tuple4 have all elements same: ", cmp(tuple3, tuple4))
+<br />
+<b>Ouput:</b>
+-1
+1
+0
+</code></pre>
+</figure>
+		</li>
+		<li><b>len(tuple)</b> - It returns the count of total number of elements in a tuple.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print("Length of the tuple : ", len(tuple1))
+<br />
+<b>Ouput:</b>
+Length of the tuple : 10
+</code></pre>
+</figure>
+		</li>
+		<li><b>max(tuple)</b> - It returns the maximum element from all the elements of the tuple.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3, 76, 7, 23, 97, 723, 232)
+tuple2 = ('abcd', 'defg', 'hijk')
+print("maximum of tuple1 : "max(tuple1))
+print("maximum of tuple2 : "max(tuple2))
+<br />
+<b>Ouput:</b>
+723
+hijk
+</code></pre>
+</figure>
+		</li>
+		<li><b>min(tuple)</b> - It returns the minimum element from all the elements of the tuple.<br>
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+tuple1 = (1, 2, 3, 76, 7, 23, 97, 723, 232)
+tuple2 = ('abcd', 'defg', 'hijk')
+print("minimum of tuple1 : "min(tuple1))
+print("minimum of tuple2 : "min(tuple2))
+<br />
+<b>Ouput:</b>
+1
+abcd
+</code></pre>
+</figure>
+		</li>
+		<li><b>tuple(sequence)</b> - It converts any sequence or any datatype into a tuple. Let's see few examples.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+str = "This is a string"
+print("converting a string into a tuple: ", tuple(str))
+list1 = [1,2,3,4]
+print("converting a list into a tuple: ", tuple(list1))
+<br />
+<b>Ouput:</b>
+('t', 'h', 'i', 's', ' ', 'i', 's', ' ', 'a', ' ', 's', 't', 'r', 'i', 'n', 'g')
+(1, 2, 3, 4)
+</code></pre>
+</figure>
+		</li>
+	</ul>
+
+<p>That's it for this lesson. I hope you all liked it. If you want to give any suggestion please feel free to let us know them thriugh the comment section. Have a great day!</p>
 
 
   <ul class="pagination justify-content-center">
