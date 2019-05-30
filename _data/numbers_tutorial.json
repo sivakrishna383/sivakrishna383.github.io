@@ -161,7 +161,7 @@
     "  <li class=\"page-item active\"><a class=\"page-link\" href=\"/pages/numbers/\">3</a></li>\n",
     "  <li class=\"page-item\"><a class=\"page-link\" href=\"/pages/strings4/\">4</a></li>\n",
     "  <li class=\"page-item\"><a class=\"page-link\" href=\"/pages/operators5/\">5</a></li>\n",
-    "  <li class=\"page-item\"><a class=\"page-link\" href=\"#\">6</a></li>\n",
+    "  <li class=\"page-item\"><a class=\"page-link\" href=\"/pages/lists_tuples6/\">6</a></li>\n",
     "  <li class=\"page-item\"><a class=\"page-link\" href=\"#\">7</a></li>\n",
     "  <li class=\"page-item\"><a class=\"page-link\" href=\"/pages/strings4/\">Next</a></li>\n",
     "  </ul>"
