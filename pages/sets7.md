@@ -38,8 +38,8 @@ title: Sets
 		<a href="/pages/numbers/"><li class="list-group-item">Numbers</li></a>
 		<a href="/pages/strings4"><li class="list-group-item">Strings</li></a>
 		<a href="/pages/operators5/"><li class="list-group-item active">Operators</li></a>
-		<a href="/pages/sets7/"><li class="list-group-item">Lists and Tuples</li></a>
-		<a href="#"><li class="list-group-item">Sets</li></a>
+		<a href="/pages/lists_tuples6/"><li class="list-group-item">Lists and Tuples</li></a>
+		<a href="/pages/sets7/"><li class="list-group-item">Sets</li></a>
 		<a href="#"><li class="list-group-item">Dictionaries</li></a>
 		<a href="#"><li class="list-group-item">Loops</li></a>
 		<ul>
@@ -199,10 +199,132 @@ NameError: name 'set1' is not defined
 </figure>
 		</li>
 	</ul>
+<h4>Regular mathematical set methods</h4>
+<p>In python there are different methods existing to apply general mathematical operations on sets.</p>
+	<ul>
+		<li><b>set1.difference(set2)</b> - It returns a set that contains items that only present in set1 and does not present in set2.<img src="img/set_difference.png" />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {3, 5, 7, 9, 11, 13}
+print(set1.difference(set2))
+print(set2.difference(set1))
+<br />
+<b>Ouput:</b>
+{1, 2, 4, 6}
+{9, 11, 13, 7}
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.intesection(set2)</b> - It returns a set that contains elements which are in common to the set1 and set2. This means new set will contain elements that are present in both set1 and set2.<img src="img/set_intesection.png" />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {3, 5, 7, 9, 11, 13}
+print(set1.intersection(set2))
+<br />
+<b>Ouput:</b>
+{3, 5}
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.isdisjoint(set2)</b> - It returns True if both sets have atleast one element in common. It returns false if there are zero elements in common to both sets.
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {3, 5, 7, 9, 11, 13}
+set3 = {10, 11, 12, 13, 14}
+print(set1.isdisjoint(set2))
+print(set1.isdisjoint(set3))
+<br />
+<b>Ouput:</b>
+True
+False
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.issubset(set2)</b> - It returns true if all the elements of set1 present in set2. In other cases it returns False.<img src="img/set_subset.png" />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3}
+set2 = {1, 2, 3, 5, 7, 9, 11, 13}
+print(set1.issubset(set2))
+print(set2.issubset(set1))
+<br />
+<b>Ouput:</b>
+True
+False
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.issuperset(set2)</b> - It returns true if all the elements of set2 present in set1. In other cases it returns False.<img src="img/set_superset.png" />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 5, 7, 9, 11, 13}
+set2 = {1, 2, 3}
+print(set1.issuperset(set2))
+print(set2.issuperset(set1))
+<br />
+<b>Ouput:</b>
+True
+False
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.symmetric_difference(set2)</b> - It returns a set containing all elements from both sets except the items which are present in both sets. It includes all elements by removing the intersection elements.<img src="img/set_symmetricdiff.png">
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 5, 7, 9, 11, 13}
+set2 = {1, 2, 3, 4, 5, 6, 7, 8}
+print(set1.symmetric_difference(set2))
+<br />
+<b>Ouput:</b>
+{4, 6, 8, 9, 11, 13}
+</code></pre>
+</figure>
+		</li>
+		<li><b>set1.union(set2)</b> - It returns a set containing all elements from both sets.It consider similar elements as a single element.<img src="img/set_union.png">
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+set1 = {1, 2, 3, 5, 7, 9, 11, 13}
+set2 = {1, 2, 3, 4, 5, 6, 7, 8}
+print(set1.union(set2))
+<br />
+<b>Ouput:</b>
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13}
+</code></pre>
+</figure>
+		</li>
+
+</ul>
+
+<p>That's it for this lesson. I hope you all liked it. If you want to give any suggestion please feel free to let us know them through the comment section. Have a great day!</p>
 
 
+  <ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">Previous</a></li>
+  <li class="page-item "><a class="page-link" href="/projects/project1">0</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/introduction2/">1</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/variables/">2</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/strings4">4</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/operators5/">5</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">6</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/sets7/">7</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+  
   
 </div>
+
+
 
 
 
