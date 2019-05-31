@@ -202,7 +202,7 @@ NameError: name 'set1' is not defined
 <h4>Regular mathematical set methods</h4>
 <p>In python there are different methods existing to apply general mathematical operations on sets.</p>
 	<ul>
-		<li><b>set1.difference(set2)</b> - It returns a set that contains items that only present in set1 and does not present in set2.<img src="img/set_difference.png" />
+		<li><b>set1.difference(set2)</b> - It returns a set that contains items that only present in set1 and does not present in set2.<br /><img src="/img/set_difference.png" width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -217,7 +217,7 @@ print(set2.difference(set1))
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.intesection(set2)</b> - It returns a set that contains elements which are in common to the set1 and set2. This means new set will contain elements that are present in both set1 and set2.<img src="img/set_intesection.png" />
+		<li><b>set1.intesection(set2)</b> - It returns a set that contains elements which are in common to the set1 and set2. This means new set will contain elements that are present in both set1 and set2.<br /><img src="/img/set_intesection.png"  width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -246,7 +246,7 @@ False
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.issubset(set2)</b> - It returns true if all the elements of set1 present in set2. In other cases it returns False.<img src="img/set_subset.png" />
+		<li><b>set1.issubset(set2)</b> - It returns true if all the elements of set1 present in set2. In other cases it returns False.<br /><img src="/img/set_subset.png"  width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -261,7 +261,7 @@ False
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.issuperset(set2)</b> - It returns true if all the elements of set2 present in set1. In other cases it returns False.<img src="img/set_superset.png" />
+		<li><b>set1.issuperset(set2)</b> - It returns true if all the elements of set2 present in set1. In other cases it returns False.<br /><img src="/img/set_superset.png"  width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -276,7 +276,7 @@ False
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.symmetric_difference(set2)</b> - It returns a set containing all elements from both sets except the items which are present in both sets. It includes all elements by removing the intersection elements.<img src="img/set_symmetricdiff.png">
+		<li><b>set1.symmetric_difference(set2)</b> - It returns a set containing all elements from both sets except the items which are present in both sets. It includes all elements by removing the intersection elements.<br /><img src="/img/set_symmetricdiff.png"  width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -289,7 +289,7 @@ print(set1.symmetric_difference(set2))
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.union(set2)</b> - It returns a set containing all elements from both sets.It consider similar elements as a single element.<img src="img/set_union.png">
+		<li><b>set1.union(set2)</b> - It returns a set containing all elements from both sets.It consider similar elements as a single element.<br /><img src="/img/set_union.png"  width="240" height="200"/> 
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
