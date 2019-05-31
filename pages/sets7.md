@@ -217,7 +217,7 @@ print(set2.difference(set1))
 </code></pre>
 </figure>
 		</li>
-		<li><b>set1.intesection(set2)</b> - It returns a set that contains elements which are in common to the set1 and set2. This means new set will contain elements that are present in both set1 and set2.<br /><img src="/img/set_intesection.png"  width="240" height="200"/>
+		<li><b>set1.intesection(set2)</b> - It returns a set that contains elements which are in common to the set1 and set2. This means new set will contain elements that are present in both set1 and set2.<br /><img src="/img/set_intersection.png"  width="240" height="200"/>
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
