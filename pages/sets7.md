@@ -40,7 +40,7 @@ title: Sets
 		<a href="/pages/operators5/"><li class="list-group-item">Operators</li></a>
 		<a href="/pages/lists_tuples6/"><li class="list-group-item">Lists and Tuples</li></a>
 		<a href="/pages/sets7/"><li class="list-group-item active">Sets</li></a>
-		<a href="#"><li class="list-group-item">Dictionaries</li></a>
+		<a href="/pages/dictionaries8/"><li class="list-group-item">Dictionaries</li></a>
 		<a href="#"><li class="list-group-item">Loops</li></a>
 		<ul>
 			<a href="#"><li class="list-group-item">If...Else</li></a>
@@ -318,7 +318,7 @@ print(set1.union(set2))
   <li class="page-item"><a class="page-link" href="/pages/operators5/">5</a></li>
   <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">6</a></li>
   <li class="page-item active"><a class="page-link" href="/pages/sets7/">7</a></li>
-  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/dictionaries8/">Next</a></li>
   </ul>
   
   
