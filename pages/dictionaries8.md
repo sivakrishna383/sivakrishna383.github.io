@@ -119,6 +119,48 @@ KeyError: 5
 </code></pre>
 </figure>
 </li>
+<li><b>Accessing elements through loops</b> - We can access all the keys or all the values using loops and methods like dict.keys() and dict.values(). Let's see example for both.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+print("Printing all keys")
+for x in dict1:
+    print(x)
+print("Printing all values")
+for x in dict1:
+    print(dict[x])
+    
+print("Printing all keys using dict.keys()")
+for x in dict1.keys():
+    print(x)
+print("Printing all values using dict.values()")
+for x in dict1.values():
+    print(x)<br />
+<b>Ouput:</b>
+Printing all keys
+1
+2
+3
+4
+Printing all values
+1
+4
+9
+16
+Printing all keys using dict.keys()
+1
+2
+3
+4
+Printing all values using dict.values()
+1
+4
+9
+16
+</code></pre>
+</figure>
+</li>
 </ul>
 
 <h4>Updating dictionary</h4>
@@ -135,17 +177,90 @@ print(dict1)<br />
 </code></pre>
 </figure>
 </li>
+	<li><b>Adding new element</b> - We can add a new element with new key by just assigning a value to the ew key in square braces of the dictionary.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+dict1[5] = 25
+print(dict1)<br />
+<b>Ouput:</b>
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+</code></pre>
+</figure>
+	</li>
 </ul>
 
-
-
-
-
-
-
-
-
-
+<h4>Deleting elements</h4>
+<p>There are several methods and functions to remove elements from a dictionary.</p>
+<ul>
+<li> <b>del dict[key]</b> - It will delete the element with the key specified.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+del dict1[2]
+print(dict1)<br />
+<b>Ouput:</b>
+{1: 1, 3: 9, 4: 16}
+</code></pre>
+</figure>	
+</li>
+<li><b>del dict</b> - It will delete the complete dictionary. If you try to access the dictionary after deleting it, it will throw a nameerror.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+del dict1
+print(dict1)<br />
+<b>Ouput:</b>
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dict1' is not defined
+</code></pre>
+</figure>
+</li>
+<li><b>dict.pop(key)</b> - This will delete and return the value of the element with the specified key. Unlike pop() method in lists here we have to give a parameter with key.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+x = dict1.pop(2)
+print(dict1)
+print(x)<br />
+<b>Ouput:</b>
+{1: 1, 3: 9, 4: 16}
+4
+</code></pre>
+</figure>
+</li>
+<li><b>dict.popitem()</b> - this will delete and return the key:value pair. There is no need to specify which key-value pair should be deleted. It deletes the last entry of the dictionary. In python version 3.7 it will delete random key-value pair.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+x = dict1.popitem()
+print(dict1)
+print(x)<br />
+<b>Ouput:</b>
+{1: 1, 2:4, 3: 9}
+(4,16)
+</code></pre>
+</figure>
+</li>
+<li><b>dict.clear()</b> - It will delete all the entries(key-value pairs) from the dictionary.<br />
+<!--Code block -->
+<figure class="highlight">
+<pre><code class="language-python" data-lang="python">
+dict1 = {1:1, 2:4, 3:9, 4:16}
+dict1.clear()
+print(dict1)<br />
+<b>Ouput:</b>
+{}
+</code></pre>
+</figure>
+</li>
+</ul>
 
 
 <p>That's it for this lesson. I hope you all liked it. If you want to give any suggestion please feel free to let us know them through the comment section. Have a great day!</p>
@@ -155,7 +270,7 @@ print(dict1)<br />
   <li class="page-item"><a class="page-link" href="/pages/sets7/">Previous</a></li>
   <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">6</a></li>
   <li class="page-item"><a class="page-link" href="/pages/sets7/">7</a></li>
-  <li class="page-item active"><a class="page-link" href="/projects/dictionaries8/">8</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/dictionaries8/">8</a></li>
   <li class="page-item"><a class="page-link" href="#">9</a></li>
   <li class="page-item"><a class="page-link" href="#">10</a></li>
   <li class="page-item"><a class="page-link" href="#">11</a></li>
