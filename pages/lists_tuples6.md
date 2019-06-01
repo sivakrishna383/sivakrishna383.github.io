@@ -37,10 +37,10 @@ title: Lists & Tuples
 		<a href="/pages/variables/"><li class="list-group-item">Variables</li></a>
 		<a href="/pages/numbers/"><li class="list-group-item">Numbers</li></a>
 		<a href="/pages/strings4"><li class="list-group-item">Strings</li></a>
-		<a href="/pages/operators5/"><li class="list-group-item active">Operators</li></a>
-		<a href="/pages/lists_tuples6/"><li class="list-group-item">Lists and Tuples</li></a>
+		<a href="/pages/operators5/"><li class="list-group-item">Operators</li></a>
+		<a href="/pages/lists_tuples6/"><li class="list-group-item active">Lists and Tuples</li></a>
 		<a href="/pages/sets7/"><li class="list-group-item">Sets</li></a>
-		<a href="#"><li class="list-group-item">Dictionaries</li></a>
+		<a href="/pages/dictionaries8/"><li class="list-group-item">Dictionaries</li></a>
 		<a href="#"><li class="list-group-item">Loops</li></a>
 		<ul>
 			<a href="#"><li class="list-group-item">If...Else</li></a>
@@ -566,9 +566,9 @@ print("converting a list into a tuple: ", tuple(list1))
   <li class="page-item"><a class="page-link" href="/pages/variables/">2</a></li>
   <li class="page-item"><a class="page-link" href="/pages/numbers/">3</a></li>
   <li class="page-item"><a class="page-link" href="/pages/strings4">4</a></li>
-  <li class="page-item active"><a class="page-link" href="/pages/operators5/">5</a></li>
-  <li class="page-item"><a class="page-link" href="/pages/lists_tuples6">6</a></li>
-  <li class="page-item"><a class="page-link" href="#">7</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/operators5/">5</a></li>
+  <li class="page-item active"><a class="page-link" href="/pages/lists_tuples6">6</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/sets7/">7</a></li>
   <li class="page-item"><a class="page-link" href="/pages/sets7/">Next</a></li>
   </ul>
 </div>
