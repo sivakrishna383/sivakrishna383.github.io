@@ -213,8 +213,6 @@ dict1 = {1:1, 2:4, 3:9, 4:16}
 del dict1
 print(dict1)<br />
 <b>Ouput:</b>
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
 NameError: name 'dict1' is not defined
 </code></pre>
 </figure>
