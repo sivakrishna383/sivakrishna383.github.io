@@ -113,13 +113,12 @@ print(dict1.get(4))<br />
 dict1 = {1:1, 2:4, 3:9, 4:16}
 print(dict1.get(5))<br />
 <b>Ouput:</b>
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
 KeyError: 5
 </code></pre>
 </figure>
 </li>
-<li><b>Accessing elements through loops</b> - We can access all the keys or all the values using loops and methods like dict.keys() and dict.values(). Let's see example for both.<br />
+<li><b>Accessing elements through loops</b> - We can access all the keys or all the values using loops and methods like dict.keys() and 
+	dict.values(). Let's see example for both.<br />
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
