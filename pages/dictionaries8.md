@@ -42,11 +42,11 @@ title: Dictionaries
 		<a href="/pages/lists_tuples6/"><li class="list-group-item">Lists and Tuples</li></a>
 		<a href="/pages/sets7/"><li class="list-group-item">Sets</li></a>
 		<a href="/projects/dictionaries8/"><li class="list-group-item active">Dictionaries</li></a>
-		<a href="#"><li class="list-group-item">Loops</li></a>
+		<a href="/pages/loops9/"><li class="list-group-item">Loops</li></a>
 		<ul>
-			<a href="#"><li class="list-group-item">If...Else</li></a>
-			<a href="#"><li class="list-group-item">While</li></a>
-			<a href="#"><li class="list-group-item">For</li></a>
+			<a href="/pages/loops9/#ifelse"><li class="list-group-item">If...Else</li></a>
+			<a href="/pages/loops9/#while"><li class="list-group-item">While</li></a>
+			<a href="/pages/loops9/#for"><li class="list-group-item">For</li></a>
 		</ul>
 		<a href="#"><li class="list-group-item">Functions</li></a>
 		<a href="#"><li class="list-group-item">Arrays</li></a>
@@ -268,13 +268,13 @@ print(dict1)<br />
   <li class="page-item"><a class="page-link" href="/pages/lists_tuples6/">6</a></li>
   <li class="page-item"><a class="page-link" href="/pages/sets7/">7</a></li>
   <li class="page-item active"><a class="page-link" href="/pages/dictionaries8/">8</a></li>
-  <li class="page-item"><a class="page-link" href="#">9</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/loops9/">9</a></li>
   <li class="page-item"><a class="page-link" href="#">10</a></li>
   <li class="page-item"><a class="page-link" href="#">11</a></li>
   <li class="page-item"><a class="page-link" href="#">12</a></li>
   <li class="page-item"><a class="page-link" href="#">13</a></li>
   <li class="page-item"><a class="page-link" href="#">14</a></li>
-  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  <li class="page-item"><a class="page-link" href="/pages/loops9/">Next</a></li>
   </ul>
   
   
