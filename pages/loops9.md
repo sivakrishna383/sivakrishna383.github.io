@@ -44,8 +44,8 @@ title: Loops
 		<a href="/pages/loops9/"><li class="list-group-item  active">Loops</li></a>
 		<ul>
 			<a href="/pages/loops9/#ifelse"><li class="list-group-item  active">If...Else</li></a>
-			<a href="/pages/loops9/#for"><li class="list-group-item  active">While</li></a>
-			<a href="/pages/loops9/#while"><li class="list-group-item  active">For</li></a>
+			<a href="/pages/loops9/#while"><li class="list-group-item  active">While</li></a>
+			<a href="/pages/loops9/#for"><li class="list-group-item  active">For</li></a>
 		</ul>
 		<a href="#"><li class="list-group-item">Functions</li></a>
 		<a href="#"><li class="list-group-item">Arrays</li></a>
