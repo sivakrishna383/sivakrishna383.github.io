@@ -77,8 +77,8 @@ python supports to use in loop coditions.
 </ul>
 </p>
 
-<h3 id="ifelse">If....Else loops</h3>
-<h4>If</h4>
+<h3 id="ifelse">1) If....Else loops</h3>
+<h4>i) If loops</h4>
 <!--Code block -->
 <p>Example syntax of IF statement. As we have dicussed in previous sections to write a block of code indentation should be there.
 If you fail to write the indentation it will throw an indentation error.</p>
@@ -96,7 +96,7 @@ x is less than y
 <p>In the above code we have used a <i>less than</i> condition to check whether value of x is less than y or not.
 As x=10 and y=20, x is less than y the condition will be true and it will go into the loop and executes the print() statement.</p>
 
-<h4>If..else</h4>
+<h4>ii) If..else</h4>
 <p>Python will execute the statements inside an if block if the condition is true. If the condition is false we want to execute some statements. So we write those statements inside an Else block.</p>
 <!--Code block -->
 <figure class="highlight">
@@ -113,7 +113,7 @@ x is not less than y
 </code></pre>
 </figure>
 
-<h4>Nested loop (If...elif...else)</h4>
+<h4>iii) Nested loop (If...elif...else)</h4>
 <p>If there are three or more possibilities for a condition we will write some statements when each possibility of the condition is true. 
 We write first possibility in if block last possibility in else block and the remaining possibilities in an elif block. Lets see an example.</p>
 
@@ -146,7 +146,7 @@ print("x is greater than y") if x > y else print("x is not greater than y")
 x is greater than y
 </code></pre>
 </figure>
-<br/ >
+
 <!--Code block -->
 <figure class="highlight">
 <pre><code class="language-python" data-lang="python">
@@ -160,7 +160,7 @@ x is greater than y
 </figure>
 
 <h4>Multiple conditions</h4>
-<h4>And</h4>
+<h4>1) And</h4>
 <!--Code block -->
 <p>The combined condition to be true both conditions must be true.</p>
 <figure class="highlight">
@@ -176,7 +176,7 @@ X is the largest number
 </code></pre>
 </figure>
 
-<h4>or</h4>
+<h4>2) Or</h4>
 <!--Code block -->
 <p>The combined condition to be true atleast one of the two conditions ust be true</p>
 <figure class="highlight">
@@ -192,7 +192,7 @@ X is the larger than atleast one number
 </code></pre>
 </figure>
 
-<h3 id="for">For loops</h4>
+<h3 id="for">For loops</h3>
 <!--Code block -->
 <p><b>Basic syntax of the for loop</b></p>
 <figure class="highlight">
@@ -202,8 +202,8 @@ for variable in sequence:
 <br /></code></pre>
 </figure>
 
-<p>For each iteration(step) the one item from the list will be assigned to the variable and then statements in the for block will be executed.
-When all the elements are over the loop will break.</p>
+<p>For each iteration(step) the one item from the list will be assigned to the variable and then statements in the for block will be 
+	executed. When all the elements are over the loop will break.</p>
 
 <!--Code block -->
 <figure class="highlight">
