@@ -378,7 +378,6 @@ while i:
 8
 9
 Traceback (most recent call last):
-  File "<stdin>", line 2, in "<module>"
 KeyboardInterrupt
 </code></pre>
 </figure>
@@ -400,8 +399,7 @@ KeyboardInterrupt
   <li class="page-item"><a class="page-link" href="#">14</a></li>
   <li class="page-item"><a class="page-link" href="#">Next</a></li>
   </ul>
-  
-  
+    
 </div>
  
 </div>
